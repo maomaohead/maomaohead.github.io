@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-07-08T07:19:09.003Z</updated>
+    <updated>2023-07-08T07:19:28.250Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
     <entry>
-        <title type="html"><![CDATA[第二章 上皮组织]]></title>
+        <title type="html"><![CDATA[《组织学与胚胎学》第二章 上皮组织]]></title>
         <id>https://maomaohead.github.io/post/di-er-zhang-shang-pi-zu-zhi/</id>
         <link href="https://maomaohead.github.io/post/di-er-zhang-shang-pi-zu-zhi/">
         </link>
