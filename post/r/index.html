@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>关于 | MaoMaoHead</title>
+<title>R★ | MaoMaoHead</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,16 +18,9 @@
 
 
 
-    <meta name="description" content="
-爆肝蓝色生死恋ing
-
-🏠 关于本站
-建立于2023年7月8日，用来放一些医学笔记
-👨‍💻 博主是谁
-某大学的一位医学牲！努力学习ing
-📬 联系我呀
-QQ邮箱：1853460697@qq.com
-注：不定期回复消息，不便之处敬请..." />
+    <meta name="description" content="建立、查询表格
+manager=c(1,2,3,4,5)
+date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&..." />
     <meta name="keywords" content="" />
   </head>
   <body>
@@ -93,23 +86,72 @@ QQ邮箱：1853460697@qq.com
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">关于</h2>
-            <div class="post-date">2019-01-25</div>
+            <h2 class="post-title">R★</h2>
+            <div class="post-date">2023-09-26</div>
             
             <div class="post-content" v-pre>
-              <blockquote>
-<p>爆肝蓝色生死恋ing</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>建立于2023年7月8日，用来放一些医学笔记</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>某大学的一位医学牲！努力学习ing</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>QQ邮箱：1853460697@qq.com<br>
-注：不定期回复消息，不便之处敬请谅解！</p>
+              <p>建立、查询表格</p>
+<pre><code>manager=c(1,2,3,4,5)
+date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&quot;5/1/09&quot;)
+country=c(&quot;US&quot;,&quot;US&quot;,&quot;UK&quot;,&quot;UK&quot;,&quot;UK&quot;)
+gender=c(&quot;M&quot;,&quot;F&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;)
+age=c(32,45,25,39,99)
+q1=c(5,3,3,3,2)
+q2=c(4,5,5,3,2)
+q3=c(5,2,5,4,1) 
+q4=c(5,5,5,NA,2)
+q5=c(5,5,2,NA,1)
+leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
+q5=c(5,5,2,NA,1)
+leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)`
+head(leadership)
+leadership[2,3]
+leadership$age[2]
+leadership[,5]
+length(leadership$age)
+</code></pre>
+<p>运行结果</p>
+<pre><code>&gt; manager=c(1,2,3,4,5)
+&gt; date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&quot;5/1/09&quot;)
+&gt; country=c(&quot;US&quot;,&quot;US&quot;,&quot;UK&quot;,&quot;UK&quot;,&quot;UK&quot;)
+&gt; gender=c(&quot;M&quot;,&quot;F&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;)
+&gt; age=c(32,45,25,39,99)
+&gt; q1=c(5,3,3,3,2)
+&gt; q2=c(4,5,5,3,2)
+&gt; q3=c(5,2,5,4,1)
+&gt; q4=c(5,5,5,NA,2)
+&gt; q5=c(5,5,2,NA,1)
+&gt; leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
+&gt; 
+&gt; head(leadership)
+ manager     date country gender age q1 q2 q3 q4 q5
+1       1 10/24/08      US      M  32  5  4  5  5  5
+2       2 10/28/08      US      F  45  3  5  2  5  5
+3       3  10/1/08      UK      F  25  3  5  5  5  2
+4       4 10/12/08      UK      M  39  3  3  4 NA NA
+5       5   5/1/09      UK      F  99  2  2  1  2  1
+&gt; 
+&gt; leadership[2,3]
+[1] &quot;US&quot;
+&gt; leadership$age[2]
+[1] 45
+&gt; leadership[,5]
+[1] 32 45 25 39 99
+&gt; length(leadership$age)
+[1] 5
+</code></pre>
 
             </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://maomaohead.github.io/post/write-an-essay-on-health-risk-factors/">
+                  <h3 class="post-title">
+                    Write an essay on health risk factors
+                  </h3>
+                </a>
+              </div>
             
 
             
