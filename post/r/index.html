@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1695728796206">
+<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1695730348139">
 <link rel="stylesheet" href="https://maomaohead.github.io/styles/main.css">
 
 
@@ -30,7 +30,7 @@ date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://maomaohead.github.io">
-        <img src="https://maomaohead.github.io/images/avatar.png?v=1695728796206" class="site-logo">
+        <img src="https://maomaohead.github.io/images/avatar.png?v=1695730348139" class="site-logo">
         <h1 class="site-title">MaoMaoHead</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -102,13 +102,21 @@ q3=c(5,2,5,4,1)
 q4=c(5,5,5,NA,2)
 q5=c(5,5,2,NA,1)
 leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
-q5=c(5,5,2,NA,1)
-leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)`
+
 head(leadership)
+
 leadership[2,3]
 leadership$age[2]
 leadership[,5]
 length(leadership$age)
+leadership[5,]
+leadership[c(2,4),5]
+
+names(leadership)
+names(leadership)[3]
+
+leadership[age&gt;40,]
+leadership[country==&quot;US&quot;,]
 </code></pre>
 <p>运行结果</p>
 <pre><code>&gt; manager=c(1,2,3,4,5)
@@ -124,7 +132,7 @@ length(leadership$age)
 &gt; leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
 &gt; 
 &gt; head(leadership)
- manager     date country gender age q1 q2 q3 q4 q5
+   manager     date country gender age q1 q2 q3 q4 q5
 1       1 10/24/08      US      M  32  5  4  5  5  5
 2       2 10/28/08      US      F  45  3  5  2  5  5
 3       3  10/1/08      UK      F  25  3  5  5  5  2
@@ -139,6 +147,24 @@ length(leadership$age)
 [1] 32 45 25 39 99
 &gt; length(leadership$age)
 [1] 5
+&gt; leadership[5,]
+manager   date country gender age q1 q2 q3 q4 q5
+5       5 5/1/09      UK      F  99  2  2  1  2  1
+&gt; leadership[c(2,4),5]
+[1] 45 39
+&gt; names(leadership)
+ [1] &quot;manager&quot; &quot;date&quot;    &quot;country&quot; &quot;gender&quot;  &quot;age&quot;     &quot;q1&quot;      &quot;q2&quot;      &quot;q3&quot;     
+[9] &quot;q4&quot;      &quot;q5&quot;  
+&gt; names(leadership)[3]
+[1] &quot;country&quot;
+&gt; leadership[age&gt;40,]
+  manager     date country gender age q1 q2 q3 q4 q5
+2       2 10/28/08      US      F  45  3  5  2  5  5
+5       5   5/1/09      UK      F  99  2  2  1  2  1
+&gt; leadership[country==&quot;US&quot;,]
+  manager     date country gender age q1 q2 q3 q4 q5
+1       1 10/24/08      US      M  32  5  4  5  5  5
+2       2 10/28/08      US      F  45  3  5  2  5  5
 </code></pre>
 
             </div>
