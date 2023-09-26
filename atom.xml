@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-09-26T12:19:43.471Z</updated>
+    <updated>2023-09-26T12:41:45.443Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -45,6 +45,22 @@ leadership[age&gt;40,]
 leadership[country==&quot;US&quot;,]
 leadership[country==&quot;US&quot;&amp;gender==&quot;M&quot;,]
 leadership[country==&quot;US&quot;|gender==&quot;M&quot;,]
+leadership[country!=&quot;US&quot;,]
+
+age^2
+sqrt(age)
+q1+q2
+
+leadership$x1 = q1 + q2
+leadership
+
+leadership$x1=rowMeans(leadership[,6:8])
+leadership
+
+leadership$agegroup[age&gt;=40&amp;age&lt;50]=&quot;40-50&quot;
+leadership$agegroup[age&lt;40]=&quot;&lt;40&quot;
+leadership$agegroup[age&gt;50]=&quot;&gt;50&quot;
+leadership
 </code></pre>
 <p>运行结果</p>
 <pre><code>&gt; manager=c(1,2,3,4,5)
@@ -101,6 +117,43 @@ manager   date country gender age q1 q2 q3 q4 q5
 1       1 10/24/08      US      M  32  5  4  5  5  5
 2       2 10/28/08      US      F  45  3  5  2  5  5
 4       4 10/12/08      UK      M  39  3  3  4 NA NA
+&gt; leadership[country!=&quot;US&quot;,]
+  manager     date country gender age q1 q2 q3 q4 q5
+3       3  10/1/08      UK      F  25  3  5  5  5  2
+4       4 10/12/08      UK      M  39  3  3  4 NA NA
+5       5   5/1/09      UK      F  99  2  2  1  2  1
+&gt; age^2
+[1] 1024 2025  625 1521 9801
+&gt; sqrt(age)
+[1] 5.656854 6.708204 5.000000 6.244998 9.949874
+&gt; q1+q2
+[1] 9 8 8 6 4
+&gt; x1 = q1 + q2
+&gt; leadership
+  manager     date country gender age q1 q2 q3 q4 q5 x1
+1       1 10/24/08      US      M  32  5  4  5  5  5  9
+2       2 10/28/08      US      F  45  3  5  2  5  5  8
+3       3  10/1/08      UK      F  25  3  5  5  5  2  8
+4       4 10/12/08      UK      M  39  3  3  4 NA NA  6
+5       5   5/1/09      UK      F  99  2  2  1  2  1  4
+&gt; leadership$x1=rowMeans(leadership[,6:8])
+&gt; leadership
+  manager     date country gender age q1 q2 q3 q4 q5       x1
+1       1 10/24/08      US      M  32  5  4  5  5  5 4.666667
+2       2 10/28/08      US      F  45  3  5  2  5  5 3.333333
+3       3  10/1/08      UK      F  25  3  5  5  5  2 4.333333
+4       4 10/12/08      UK      M  39  3  3  4 NA NA 3.333333
+5       5   5/1/09      UK      F  99  2  2  1  2  1 1.666667
+&gt; leadership$agegroup[age&gt;=40&amp;age&lt;50]=&quot;40-50&quot;
+&gt; leadership$agegroup[age&lt;40]=&quot;&lt;40&quot;
+&gt; leadership$agegroup[age&gt;50]=&quot;&gt;50&quot;
+&gt; leadership
+  manager     date country gender age q1 q2 q3 q4 q5       x1 agegroup
+1       1 10/24/08      US      M  32  5  4  5  5  5 4.666667      &lt;40
+2       2 10/28/08      US      F  45  3  5  2  5  5 3.333333    40-50
+3       3  10/1/08      UK      F  25  3  5  5  5  2 4.333333      &lt;40
+4       4 10/12/08      UK      M  39  3  3  4 NA NA 3.333333      &lt;40
+5       5   5/1/09      UK      F  99  2  2  1  2  1 1.666667      &gt;50
 </code></pre>
 ]]></content>
     </entry>
