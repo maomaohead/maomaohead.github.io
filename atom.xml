@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-10-04T05:29:58.465Z</updated>
+    <updated>2023-10-18T09:01:20.481Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -208,6 +208,66 @@ manager   date country gender age q1 q2 q3 q4 q5
 4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
 1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
 3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
+</code></pre>
+<p>代码</p>
+<pre><code>install.packages(&quot;openxlsx&quot;)
+library(openxlsx)
+data=read.xlsx(&quot;C:/Users/86150/Desktop/survival data.xlsx&quot;, sheet=1)
+
+data2=data[data$初诊年龄&lt;60&amp;data$T分期==1,]
+data$EAIgA[data$EAIgA==&quot;阴&quot;|data$EAIgA==&quot;阴性&quot;|data$EAIgA==&quot;-&quot;|data$EAIgA==&quot;&quot;]=0
+
+data$EAIgA=as.numeric(data$EAIgA)
+
+mean(data2$EAIgA,na.rm = T)
+
+table(data2$性别,data2$吸烟与否)
+
+plot(data2$LDH,data2$Overall.survival.time)
+
+data2$kk[data2$LDH&gt;200]=&quot;High&quot;
+data2$kk[data2$LDH&lt;=200]=&quot;Low&quot;
+
+data2$k=ifelse(data2$EAIgA&lt;=200,&quot;low&quot;,&quot;high&quot;)
+
+for(i in 1:100){
+  if(data2$LDH[i]&lt;200) data2$kk[i]=&quot;low&quot; else data2$kk[i]=&quot;high&quot;
+}
+
+junshu=mean(data2$LDH)
+biaozhuncha=sd(data$LDH)
+junshu
+biaozhuncha
+round(junshu,2)
+round(biaozhuncha,2)
+junshu
+biaozhuncha
+
+sprintf(&quot;%.2f&quot;,junshu)
+sprintf(&quot;%.2f&quot;,biaozhuncha)
+paste0(sprintf(&quot;%.2f&quot;,junshu),&quot;±&quot;,sprintf(&quot;%.2f&quot;,biaozhuncha))
+
+
+
+mean_Z=function(var){
+junshu=mean(var)
+biaozhuncha=sd(var)
+paste0(sprintf(&quot;%.2f&quot;,junshu),&quot;±&quot;,sprintf(&quot;%.2f&quot;,biaozhuncha))
+}
+mean_Z(data2$LDH)
+mean_Z(data2$EALgA)
+mean_Z(data2$初诊年龄)
+
+#自编一个输入两个分类变量的名字就可以返回四格表的函数
+
+Ptable=function(var1,var2){
+a=table(var1,var2)
+b=chisq.test(a)
+c=b$statistic
+d=b$p.value
+return(list(a,b,c,d))
+}
+Ptable(data$性别,data$吸烟与否)
 </code></pre>
 ]]></content>
     </entry>
