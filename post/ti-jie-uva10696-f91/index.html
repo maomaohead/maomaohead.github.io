@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea | MaoMaoHead</title>
+<title>题解 UVA10696 【f91】 | MaoMaoHead</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,7 +18,13 @@
 
 
 
-    <meta name="description" content="爆肝蓝色生死恋">
+    <meta name="description" content="考察内容：递归
+这道题难度比较低，按照题目要求做，然后就可以了。
+（本来以为会TLE）
+#include&lt;iostream&gt;
+using namespace std;
+long long f91(long long n){//定..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -82,35 +88,49 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="current-tag">标签: Gridea</h2>
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://maomaohead.github.io/post/hello-gridea/">
-                  <h2 class="post-title">Hello Gridea</h2>
-                </a>
-                <div class="post-date">
-                  2018-12-12
-                </div>
-                <div class="post-abstract">
-                  <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+          <div class="post-detail">
+            <h2 class="post-title">题解 UVA10696 【f91】</h2>
+            <div class="post-date">2019-09-08</div>
+            
+            <div class="post-content" v-pre>
+              <p>考察内容：<strong>递归</strong></p>
+<p>这道题难度比较低，<strong>按照题目要求做</strong>，然后就可以了。</p>
+<p><s>（本来以为会TLE）</s></p>
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+long long f91(long long n){//定义函数
+	if(n&lt;=100) return f91(f91(n+11));//也可以像其他大佬所说的那样，f91(f91(n+11))==91.
+	else return n-10;
+}
+int main(){
+	long n;
+	while(cin&gt;&gt;n){
+		if(n==0) return 0;//输入若干个正整数，直到n=0停止
+		cout&lt;&lt;&quot;f91(&quot;&lt;&lt;n&lt;&lt;&quot;) = &quot;&lt;&lt;f91(n)&lt;&lt;endl;//注意输出（有坑！）
+	}
+}
+</code></pre>
+<p><strong>最简洁代码：</strong></p>
+<pre><code>#include&lt;iostream&gt;
+using namespace std;
+long long n;
+int main(){
+	while(cin&gt;&gt;n){
+		if(n==0) return 0;
+		if(n&lt;=100)cout&lt;&lt;&quot;f91(&quot;&lt;&lt;n&lt;&lt;&quot;) = &quot;&lt;&lt;91&lt;&lt;endl;
+		else cout&lt;&lt;&quot;f91(&quot;&lt;&lt;n&lt;&lt;&quot;) = &quot;&lt;&lt;n-10&lt;&lt;endl;
+	}
+	
+}
+</code></pre>
 
-                </div>
-              </div>
-              
-                <a class="right" href="https://maomaohead.github.io/post/hello-gridea/">
-                  <div class="feature-container" style="background-image: url('https://maomaohead.github.io/post-images/hello-gridea.png')">
-                  </div>
-                </a>
-              
-            </article>
-          
+            </div>
+            
+            
 
-          <div class="pagination-container">
-  
-  
-</div>
+            
+
+          </div>
 
         </div>
       </div>
