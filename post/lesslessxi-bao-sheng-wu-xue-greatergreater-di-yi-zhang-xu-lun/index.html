@@ -1,97 +1,100 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <title>《细胞生物学》第一章 绪论 | MaoMaoHead</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702273839729">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702272029573">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maomaohead.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="第一节	 细胞生物学概述
-一、细胞生物学的概念与研究内容
-1、细胞生物学：细胞生物学是一科以细胞为对象，在显微、亚显微和分子水平上，结合结构与功能，以动态观点探索细胞各种生命活动的学科。
-2、细胞生物学的特点是把结构和功能结合起来，并关注细..." />
-    <meta name="keywords" content="细胞生物学" />
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://maomaohead.github.io">
-        <img src="https://maomaohead.github.io/images/avatar.png?v=1702272029573" class="site-logo">
-        <h1 class="site-title">MaoMaoHead</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            MaoMaoHead
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://maomaohead.github.io/post/mu-lu" class="site-nav">
-            索引
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      爆肝蓝色生死恋
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://maomaohead.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">《细胞生物学》第一章 绪论</h2>
-            <div class="post-date">2023-07-09</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-            <div class="post-content" v-pre>
-              <h1 id="第一节-细胞生物学概述">第一节	 细胞生物学概述</h1>
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://maomaohead.github.io/post/mu-lu" class="menu gt-a-link">
+                            索引
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1702273839729" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    《细胞生物学》第一章 绪论
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-07-09 ·
+                    </time>
+                    
+                        <a href="https://maomaohead.github.io/tag/ZPCt2gi81/" class="post-tags">
+                            # 细胞生物学
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <h1 id="第一节-细胞生物学概述">第一节	 细胞生物学概述</h1>
 <h2 id="一-细胞生物学的概念与研究内容">一、细胞生物学的概念与研究内容</h2>
 <p>1、细胞生物学：细胞生物学是一科以细胞为对象，在显微、亚显微和分子水平上，结合结构与功能，以动态观点探索细胞各种生命活动的学科。<br>
 2、细胞生物学的特点是把结构和功能结合起来，并关注细胞间的相互关系，来了解生物体的生长、发育、分化、繁殖、运动、遗传、变异、衰老和死亡等基本生命现象的机制和规律。</p>
@@ -140,58 +143,56 @@
 蛋白质组学：细胞的蛋白质组学以细胞内全部蛋白质的存在及其活动方式为研究对象，从整体角度分析细胞内动态变化的蛋白质组成成分、表达水平与修饰状态，进而了解蛋白质之间的相互作用和联系，揭示蛋白质功能与细胞生命活动的规律。<br>
 8、表观遗传学：表观遗传学是研究没有DNA序列变化并且可以遗传的基因功能变化的学科，如DNA甲基化、组蛋白密码（指组蛋白的乙酰化、甲基化、磷酸化、泛素化、糖基化和羰基化等影响转录因子与DNA结合的动态转录调控），基因组印记以及表观基因组学等。</p>
 
-            </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://maomaohead.github.io/tag/ZPCt2gi81/" class="tag">
-                    细胞生物学
-                  </a>
-                
-              </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://maomaohead.github.io/post/lesslesszu-zhi-xue-yu-pei-tai-xue-greatergreater-di-shi-wu-zhang-xiao-hua-xian/">
-                  <h3 class="post-title">
-                    《组织学与胚胎学》第十五章 消化腺
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
+                </div>
+            </article>
         </div>
-      </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://maomaohead.github.io/post/lesslesszu-zhi-xue-yu-pei-tai-xue-greatergreater-di-shi-wu-zhang-xiao-hua-xian/" class="post-title gt-a-link">
+                    《组织学与胚胎学》第十五章 消化腺
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">爆肝蓝色生死恋</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
     </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://maomaohead.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>

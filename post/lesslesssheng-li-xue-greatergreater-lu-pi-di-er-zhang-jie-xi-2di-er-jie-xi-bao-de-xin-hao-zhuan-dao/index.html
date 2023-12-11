@@ -1,99 +1,96 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <title>《生理学》绿皮第二章解析2（第二节 细胞的信号转导） | MaoMaoHead</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702273839729">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702272029573">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maomaohead.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="第二节 细胞的信号转导
-一、名词解释
-
-
-signal transduction
-即信号转导。细胞的信号转导是指生物学信息（兴奋或抑制）在细胞间或细胞内转换和传递，并产生生物效应的过程，但通常指跨膜信号转导，即生物活性物质（激素、神经递质、..." />
-    <meta name="keywords" content="" />
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://maomaohead.github.io">
-        <img src="https://maomaohead.github.io/images/avatar.png?v=1702272029573" class="site-logo">
-        <h1 class="site-title">MaoMaoHead</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            MaoMaoHead
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://maomaohead.github.io/post/mu-lu" class="site-nav">
-            索引
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      爆肝蓝色生死恋
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://maomaohead.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">《生理学》绿皮第二章解析2（第二节 细胞的信号转导）</h2>
-            <div class="post-date">2023-07-18</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-            <div class="post-content" v-pre>
-              <h2 id="第二节-细胞的信号转导"><strong>第二节 细胞的信号转导</strong></h2>
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://maomaohead.github.io/post/mu-lu" class="menu gt-a-link">
+                            索引
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1702273839729" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    《生理学》绿皮第二章解析2（第二节 细胞的信号转导）
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-07-18 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="第二节-细胞的信号转导"><strong>第二节 细胞的信号转导</strong></h2>
 <p>一、名词解释</p>
 <ol>
 <li>
@@ -383,41 +380,49 @@ D. 第二信使</li>
 ③癌基因的非突变形式称作原癌基因，常是细胞信号转导通路中重要信号分子的基础，比如ras基因是原癌基因的经典范例，所编码的Ras蛋白，是一种小G蛋白，是转导细胞外多种生长因子特定信息的Ras-MAPK通路网络的重要信号分子。研究发现在40%的人类肿瘤中Ras基因发生突变，突变后的Ras蛋白则在没有细胞外刺激情况下也持续激活信号通路，导致细胞过度增殖。抑癌基因的典型范例是p53基因，其编码的p53蛋白是肿瘤抑制因子和转录因子，在大多数人类肿瘤中失活。同时，这些痛基因和抑癌基因经常又是肿瘤病毒的聊点，导致相应基因的表观遗传改变，或直接导致基因产物的活性变化，诱发肿瘤。<br>
 ④与肿瘤有关的信号转导通路还涉及酪骏激酶受体(TKR)如表皮生长因子受体等、丝氨酸苏气酸激酶受体如转化生长因子-8 (TGF-B)受体等，小G蛋白Rho家族、细胞周期信号网络，抑痛基因相关的成视网膜细胞瘤基因(Rb)通路、pten基因编码的PTEN通路，以及胱冬蛋白酶 (caspase)，前抗凋亡蛋白和抗凋亡蛋白的Bcl-2家族及Akt激酶等。</p>
 
-            </div>
-            
-            
-
-            
-
-          </div>
-
+                </div>
+            </article>
         </div>
-      </div>
+
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">爆肝蓝色生死恋</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
     </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://maomaohead.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>

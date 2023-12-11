@@ -1,94 +1,96 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" >
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <title>甲午战争与抗日战争 ——结果截然不同的两场中日战争 | MaoMaoHead</title>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702273839729">
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702272029573">
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maomaohead.github.io/styles/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
 
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-
-
-
-    <meta name="description" content="在中国的近代史上，中国与日本曾发生过两次主要的战争——甲午中日战争和抗日民族战争。这两次战争中，交战双方都是中国和日本，敌我差距同样悬殊，但最终却取得了截然不同的结果——甲午中日战争中，中国战败，清廷被迫与日本签订《马关条约》，大大加深了中..." />
-    <meta name="keywords" content="" />
-  </head>
-  <body>
-    <div id="app" class="main">
-
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://maomaohead.github.io">
-        <img src="https://maomaohead.github.io/images/avatar.png?v=1702272029573" class="site-logo">
-        <h1 class="site-title">MaoMaoHead</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            MaoMaoHead
+        </div>
     </div>
-    <div>
-      
-        
-          <a href="/" class="site-nav">
-            首页
-          </a>
-        
-      
-        
-          <a href="https://maomaohead.github.io/post/mu-lu" class="site-nav">
-            索引
-          </a>
-        
-      
-        
-          <a href="/post/about" class="site-nav">
-            关于
-          </a>
-        
-      
-    </div>
-  </div>
-  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
-    <div class="social-container">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-    </div>
-    <div class="site-description">
-      爆肝蓝色生死恋
-    </div>
-    <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://maomaohead.github.io/atom.xml" target="_blank">RSS</a>
-    </div>
-  </div>
-</div>
-
-
-      <div class="main-container">
-        <div class="content-container" data-aos="fade-up">
-          <div class="post-detail">
-            <h2 class="post-title">甲午战争与抗日战争 ——结果截然不同的两场中日战争</h2>
-            <div class="post-date">2023-08-12</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
             
-            <div class="post-content" v-pre>
-              <p>在中国的近代史上，中国与日本曾发生过两次主要的战争——甲午中日战争和抗日民族战争。这两次战争中，交战双方都是中国和日本，敌我差距同样悬殊，但最终却取得了截然不同的结果——甲午中日战争中，中国战败，清廷被迫与日本签订《马关条约》，大大加深了中国半殖民地程度；而抗日民族战争中，日本最终宣布无条件投降，中国第一次在反帝国主义斗争中取得了完全胜利。为何中日两次战争的胜负截然相反？我认为，总体上可以从国内因素和国外因素两个角度分析。</p>
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="https://maomaohead.github.io/post/mu-lu" class="menu gt-a-link">
+                            索引
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1702273839729" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    甲午战争与抗日战争 ——结果截然不同的两场中日战争
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-08-12 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <p>在中国的近代史上，中国与日本曾发生过两次主要的战争——甲午中日战争和抗日民族战争。这两次战争中，交战双方都是中国和日本，敌我差距同样悬殊，但最终却取得了截然不同的结果——甲午中日战争中，中国战败，清廷被迫与日本签订《马关条约》，大大加深了中国半殖民地程度；而抗日民族战争中，日本最终宣布无条件投降，中国第一次在反帝国主义斗争中取得了完全胜利。为何中日两次战争的胜负截然相反？我认为，总体上可以从国内因素和国外因素两个角度分析。</p>
 <h2 id="一-国内因素">一、国内因素</h2>
 <h3 id="一抗日战争时期的制度比甲午中日战争更加团结-更加坚强">（一）	抗日战争时期的制度比甲午中日战争更加团结、更加坚强</h3>
 <p>甲午中日战争中国战败的最主要原因应归于清朝腐朽的封建制度，尤其是领导阶层之间的内耗。甲午中日战争前后，光绪帝和慈禧太后的权力斗争矛盾尤其尖锐。在甲午战争中，以光绪帝为首的帝派主张积极反抗，以树立起光绪帝的政治威望，但慈禧太后却无心应战，只想着她的六十大寿，并留有“今日令吾不欢者，吾亦将令彼终身不欢”之辞。在帝党和后党关于是战是和绵绵不绝的争斗中，清军未能抓住战斗机遇，丧失了战场上的主动地位，最终为日军所败。</p>
@@ -104,50 +106,56 @@
 <p>除了上述所提及的领导力量、人民群众民族意识的觉醒与否、国外援助等因素，仍有许多因素未在上文提及，诸如作战时的军事思路等。但领导力量团结与否、民族意识的觉醒与否、国际舆论的风向，无疑是抗战成败的决定性因素。中国的政党、人民群众和世界其他的反法西斯力量一起合作，相互配合，共同击退了日军的侵略。</p>
 <p>尽管如今的中国已经不复百年前的贫弱，抗日战争对当下的中国仍有重要意义。首先，必须坚持中国共产党执政、其他政党参政议政的政治协商制度，各主要党派共商国是，以对话协商的方式解决分歧，从而保持领导力量的强大。另外，必须持续推进爱国主义教育，不断增强老百姓的民族意识、激发老百姓的爱国热情，激励每一位中华儿女为祖国发展繁荣而不懈奋斗。最后，必须推进人类命运共同体的建设。当各个国家面临着共同的挑战时，将力量聚积起来，可以让我们在应对挑战时更加游刃有余。</p>
 
-            </div>
-            
-            
-              <div class="next-post">
-                <div class="next">下一篇</div>
-                <a href="https://maomaohead.github.io/post/new-bing-sheng-li-xue-de-xue-xi-fang-fa/">
-                  <h3 class="post-title">
-                    New Bing - 生理学的学习方法
-                  </h3>
-                </a>
-              </div>
-            
-
-            
-
-          </div>
-
+                </div>
+            </article>
         </div>
-      </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://maomaohead.github.io/post/new-bing-sheng-li-xue-de-xue-xi-fang-fa/" class="post-title gt-a-link">
+                    New Bing - 生理学的学习方法
+                </a>
+            </div>
+        
+
+        
+
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">爆肝蓝色生死恋</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
     </div>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://maomaohead.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script type="application/javascript">
-
-AOS.init();
-
-var app = new Vue({
-  el: '#app',
-  data: {
-    menuVisible: false,
-  },
-})
-
+<script>
+  hljs.initHighlightingOnLoad()
 </script>
 
-
-  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad()
-  </script>
-
-
-
-
-
-  </body>
+    </div>
+</div>
+</body>
 </html>
