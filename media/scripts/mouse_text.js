@@ -12,7 +12,7 @@ jQuery(document).ready(function($) {
 
 
     $("body").click(function(e) {
-        var a = new Array("C","编曲","原神","Html","php","富强","C++","民主","和谐","python","文明","自由","C#","平等","java","公正","法治","javascript","爱国","敬业","study","诚信","友善");
+        var a = new Array("视杆细胞","视锥细胞","小吉祥草王","肾上腺素","乙酰胆碱","纳西妲","布耶尔","民主","和谐","C++","文明","自由","大慈树王","平等","净善宫","公正","法治","富强","爱国","敬业","study","诚信","友善");
         var $i = $("<span></span>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,

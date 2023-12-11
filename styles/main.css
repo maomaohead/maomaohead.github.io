@@ -473,6 +473,7 @@ ul li {
 }
 .navbar {
   padding: 38px 96px !important;
+  position: absolute;
 }
 .navbar .navbar-brand {
   display: flex;
@@ -504,6 +505,21 @@ ul li {
   width: 22px;
   height: 22px;
 }
+.list_right {
+  width: 4cm;
+  height: 8cm;
+  border-radius: 10px;
+  position: fixed;
+  display: none;
+  right: 0px;
+  background-color: #f1f3f5;
+  text-align: center;
+}
+.list_menu {
+  position: absolute;
+  margin-left: auto;
+  margin-top: 1cm;
+}
 @media (max-width: 992px) {
   .navbar {
     padding: 30px 30px 0 30px !important;
@@ -522,6 +538,87 @@ ul li {
   }
   .navbar .nav-item:first-child {
     margin-top: 35px;
+  }
+}
+/* 触发弹窗图片的样式 */
+#myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  padding: 10px 0;
+  height: 150px;
+}
+/* 弹窗背景 */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: #000000;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+/* 图片 */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 70%;
+  max-width: 500px;
+}
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* 关闭按钮 */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 小屏幕中图片宽度为 100% */
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 80%;
   }
 }
 .post-list-container {
@@ -781,6 +878,20 @@ ul li {
 }
 .site-footer .footer-info {
   padding-bottom: 10px;
+}
+#vcomments .vcards .vcard {
+  padding: 15px 20px 0 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s;
+}
+#vcomments .vcards .vcard:hover {
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.12);
+}
+#vcomments .vcards .vcard .vh .vcard {
+  border: none;
+  box-shadow: none;
 }
 .friend-box {
   float: left;
@@ -1823,100 +1934,100 @@ code::-webkit-scrollbar-thumb:hover {
 }
 
         .gt-bg-theme-color-first {
-          background: #ffffff!important;
+          background: #ced4da!important;
         }
         
         .gt-bg-theme-color-second {
-          background: #dddddd!important;
+          background: #f8f9fa!important;
         }
         
         .gt-bg-content-color-first {
-          background: #5f6169!important;
+          background: #212529!important;
         }
         
         .gt-bg-content-color-second {
-          background: #999fa7!important;
+          background: #212529!important;
         }
         
         .gt-bg-accent-color-first {
-          background: #84fab0!important;
+          background: #fd7e14!important;
         }
         
         .gt-bg-accent-color-second {
-          background: RGBA(132,250,176,0.2)!important;
+          background: RGBA(253,126,20,0.2)!important;
         }
         
         .gt-c-theme-color-first {
-          color: #ffffff!important;
+          color: #ced4da!important;
         }
         
         .gt-c-theme-color-second {
-          color: #dddddd!important;
+          color: #f8f9fa!important;
         }
         
         .gt-c-content-color-first {
-          color: #5f6169!important;
+          color: #212529!important;
         }
         
         .gt-c-content-color-second {
-          color: #999fa7!important;
+          color: #212529!important;
         }
         
         .gt-c-accent-color-first {
-          color: #84fab0!important;
+          color: #fd7e14!important;
         }
         
         .gt-c-accent-color-second {
-          color: RGBA(132,250,176,0.2)!important;
+          color: RGBA(253,126,20,0.2)!important;
         }
         
         body {
-          color: #5f6169!important;
+          color: #212529!important;
         }
         
         a {
-          color: #84fab0!important;
+          color: #fd7e14!important;
         }
         
         .post-content h1 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(132,250,176,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(253,126,20,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(132,250,176,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(253,126,20,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #5f6169!important;
+          color: #212529!important;
           position: relative!important;
-          background: linear-gradient(180deg, transparent 75%, RGBA(132,250,176,0.4) 0)!important;
+          background: linear-gradient(180deg, transparent 75%, RGBA(253,126,20,0.4) 0)!important;
         }
         
         .gt-post-content a {
-          color: #84fab0!important;
+          color: #fd7e14!important;
         }
         
         .gt-post-content blockquote {
-          background: RGBA(132,250,176,0.2)!important;
-          border-color: #84fab0!important;
+          background: RGBA(253,126,20,0.2)!important;
+          border-color: #fd7e14!important;
         }
         
         .gt-post-content code {
-          background: RGBA(132,250,176,0.2)!important;
+          background: RGBA(253,126,20,0.2)!important;
         }
         
         input::placeholder {
-          color: #999fa7!important;
+          color: #212529!important;
         }
         
         .search-input {
-          color: #5f6169!important;
-          background-color: #dddddd!important;
+          color: #212529!important;
+          background-color: #f8f9fa!important;
         }
          
