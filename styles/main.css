@@ -1942,11 +1942,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-bg-content-color-first {
-          background: #212529!important;
+          background: #343a40!important;
         }
         
         .gt-bg-content-color-second {
-          background: #212529!important;
+          background: #343a40!important;
         }
         
         .gt-bg-accent-color-first {
@@ -1966,11 +1966,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         .gt-c-content-color-first {
-          color: #212529!important;
+          color: #343a40!important;
         }
         
         .gt-c-content-color-second {
-          color: #212529!important;
+          color: #343a40!important;
         }
         
         .gt-c-accent-color-first {
@@ -1982,7 +1982,7 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         body {
-          color: #212529!important;
+          color: #343a40!important;
         }
         
         a {
@@ -1991,20 +1991,20 @@ code::-webkit-scrollbar-thumb:hover {
         
         .post-content h1 {
           display: inline-block;
-          color: #212529!important;
+          color: #343a40!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(50,205,50,0.4) 0)!important;
         }
         
         .post-content h2 {
           display: inline-block;
-          color: #212529!important;
+          color: #343a40!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(50,205,50,0.4) 0)!important;
         }
         
         .gt-a-link {
-          color: #212529!important;
+          color: #343a40!important;
           position: relative!important;
           background: linear-gradient(180deg, transparent 75%, RGBA(50,205,50,0.4) 0)!important;
         }
@@ -2023,11 +2023,11 @@ code::-webkit-scrollbar-thumb:hover {
         }
         
         input::placeholder {
-          color: #212529!important;
+          color: #343a40!important;
         }
         
         .search-input {
-          color: #212529!important;
+          color: #343a40!important;
           background-color: #f8f9fa!important;
         }
          
