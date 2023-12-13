@@ -1,0 +1,554 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>R语言公选结课作业 | MaoMaoHead</title>
+
+<link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1702480768393">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="/styles/main.css">
+
+<style>
+    hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+</style>
+
+<script src="/media/scripts/highlight.min.js"></script>
+<script src="/media/scripts/dockerfile.min.js"></script>
+<script src="/media/scripts/dart.min.js"></script>
+
+
+<canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:99999999;pointer-events:none;"> </canvas>
+<script type="text/javascript" src="/media/scripts/anime.min.js"></script>
+<script type="text/javascript" src="/media/scripts/fireworks.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <script src="/media/scripts/aplayer/APlayer.min.js"></script>
+<link rel="stylesheet" href="/media/scripts/aplayer/APlayer.min.css">
+<div id="aplayer" class="aplayer"  data-id="" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true" data-order="random" data-theme="#F58EA8"></div>
+<script src="/media/scripts/jquery-ui.js"></script>
+<script src="/media/scripts/jquery-ui.min.js"></script>
+
+<script src="/media/scripts/time_add.js"></script></br>
+<style>
+    /* 导航栏样式 */
+    .navbar {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .navbar-brand:hover,
+    .navbar-brand:focus {
+        text-decoration: none;
+    }
+
+    .navbar-nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+
+    .navbar-collapse {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+    }
+
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+    }
+
+    @media (min-width: 992px) {
+        .navbar-expand-lg {
+            -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+
+        .navbar-expand-lg .navbar-nav {
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -ms-flex-preferred-size: auto;
+            flex-basis: auto;
+        }
+
+        .navbar-expand-lg .navbar-toggler {
+            display: none;
+        }
+    }
+
+    @media (max-width: 991px) {
+        #navbarSupportedContent {
+            display: none;
+        }
+    }
+</style>
+
+<!-- <button id="myImg">分享出去</button> -->
+
+<script src="/media/scripts/jquery-3.5.1.min.js"></script>
+<script src="/media/scripts/jquery-ui.js"></script>
+<script src="/media/scripts/jquery-ui.min.js"></script>
+<script src="/media/scripts/index.js"></script>
+
+
+<link rel="stylesheet" href="/media/script/jquery-ui.min.css">
+
+<nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand"  id="myImg" title="点我分享出去哦~">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            MaoMaoHead
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="right_list">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+
+    <div class="list_menu">
+    <div class="list_right">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://maomaohead.github.io/post/mu-lu" class="menu gt-a-link">
+                    索引
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://maomaohead.github.io/post/hua-de-bi-nan-suo" class="menu gt-a-link">
+                    避难所
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://maomaohead.github.io/post/guan-shui-qu" class="menu gt-a-link">
+                    灌水区
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://maomaohead.github.io/post/mu-lu" class="menu gt-a-link">
+                    索引
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://maomaohead.github.io/post/hua-de-bi-nan-suo" class="menu gt-a-link">
+                    避难所
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="https://maomaohead.github.io/post/guan-shui-qu" class="menu gt-a-link">
+                    灌水区
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1702480768393"
+                action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = function () {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+<script type="text/javascript" src="/media/scripts/mouse_text.js"></script>
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    R语言公选结课作业
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-12-13 ·
+                    </time>
+                    
+                </div>
+                <div class="post-content">
+                    <h2 id="洛谷p1364-医院设置">洛谷P1364 医院设置</h2>
+<h3 id="题目描述">题目描述</h3>
+<p>设有一棵二叉树，如图：</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.luogu.com.cn/upload/image_hosting/kawht13x.png" alt="" loading="lazy"></figure>
+<p>其中，圈中的数字表示结点中居民的人口。圈边上数字表示结点编号，现在要求在某个结点上建立一个医院，使所有居民所走的路程之和为最小，同时约定，相邻接点之间的距离为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>。如上图中，若医院建在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 处，则距离和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>=</mo><mn>4</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>2</mn><mo>×</mo><mn>20</mn><mo>+</mo><mn>2</mn><mo>×</mo><mn>40</mn><mo>=</mo><mn>136</mn></mrow><annotation encoding="application/x-tex">=4+12+2\times20+2\times40=136</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">3</span><span class="mord">6</span></span></span></span>；若医院建在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3</mn></mrow><annotation encoding="application/x-tex">3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span></span></span></span> 处，则距离和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>=</mo><mn>4</mn><mo>×</mo><mn>2</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>81</mn></mrow><annotation encoding="application/x-tex">=4\times2+13+20+40=81</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">1</span></span></span></span>。</p>
+<h3 id="输入格式">输入格式</h3>
+<p>第一行一个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>，表示树的结点数。</p>
+<p>接下来的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 行每行描述了一个结点的状况，包含三个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>w</mi><mo separator="true">,</mo><mi>u</mi><mo separator="true">,</mo><mi>v</mi></mrow><annotation encoding="application/x-tex">w, u, v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span>，其中 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>w</mi></mrow><annotation encoding="application/x-tex">w</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span></span></span></span> 为居民人口数，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span> 为左链接（为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 表示无链接），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span> 为右链接（为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 表示无链接）。</p>
+<h3 id="输出格式">输出格式</h3>
+<p>一个整数，表示最小距离和。</p>
+<h3 id="样例-1">样例 #1</h3>
+<h4 id="样例输入-1">样例输入 #1</h4>
+<pre><code>5						
+13 2 3
+4 0 0
+12 4 5
+20 0 0
+40 0 0
+</code></pre>
+<h4 id="样例输出-1">样例输出 #1</h4>
+<pre><code>81
+</code></pre>
+<h3 id="提示">提示</h3>
+<h4 id="数据规模与约定">数据规模与约定</h4>
+<p>对于 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>100</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">100\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">%</span></span></span></span> 的数据，保证 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">1 \leq n \leq 100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mo>≤</mo><mi>u</mi><mo separator="true">,</mo><mi>v</mi><mo>≤</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">0 \leq u, v \leq n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8304100000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>w</mi><mo>≤</mo><mn>1</mn><msup><mn>0</mn><mn>5</mn></msup></mrow><annotation encoding="application/x-tex">1 \leq w \leq 10^5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span>。</p>
+<hr>
+<h3 id="由此写出来的c代码">由此写出来的C++代码：</h3>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+struct node{ //这个struct可以理解为R语言中的data.frame
+	int rc,lc,father,x; 
+	//rc表示当前节点的右子节点
+	//lc表示当前节点的左子节点
+	//father表示当前节点的根节点，也叫双亲节点
+	//x表示当前节点的居民数量
+}a[101];
+int n,ans=INT_MAX,ans1;
+void dfs(int o,int pre,int num,int end,int begin){ //最短路
+	//o表示当前所在节点
+	//pre表示上一步所在的节点
+	//num表示当前所走的距离
+	//end即destination
+	//begin表示出发点
+	if(o==0) return; 
+	//如果这个节点没有子节点，走不通，那就不走了，换其他路试试看
+	if(o==end) ans1=min(ans1,num*a[begin].x);
+	//走到了destination，比较最短路径
+	if(a[o].father!=pre) dfs(a[o].father,o,num+1,end,begin);
+	//如果当前节点的根节点没有走过，那就走一下试试看（这个判定条件是为了防止居民在两个节点之间反复横跳造成死循环）
+	if(a[o].lc!=pre) dfs(a[o].lc,o,num+1,end,begin);
+	//如果当前的左侧子节点没有走过，那就走一下试试看
+	if(a[o].rc!=pre) dfs(a[o].rc,o,num+1,end,begin);
+	//如果当前节点的右侧子节点没有走过，那就走一下试试看
+}
+int main(){
+	//以下这一段为输入
+	cin&gt;&gt;n;
+	for(int i=1;i&lt;=n;i++){
+		int x,y,z;
+		cin&gt;&gt;x&gt;&gt;y&gt;&gt;z;
+		a[i].x=x; 
+		a[i].lc=y; 
+		a[i].rc=z; 
+		a[y].father=i; 
+		a[z].father=i;
+	}
+	a[0].father=0;
+	for(int i=1;i&lt;=n;i++){ //枚举医院设置在各个节点上的情形
+		int sum=0;
+		for(int j=1;j&lt;=n;j++)  //求其他各个节点的居民到达医院的最短距离
+			if(i!=j){ //医院所在节点上的居民到医院的距离为0，不需要算进总距离里
+				ans1=INT_MAX; //初始化最短路为无穷大
+				dfs(j,0,0,i,j); //求j号节点到i号节点的最短距离
+				sum+=ans1; //求各个节点到医院所在节点的距离和
+			}
+		ans=min(sum,ans); //比较最小值
+	}
+	cout&lt;&lt;ans; //输出答案
+    return 0;
+}
+</code></pre>
+<hr>
+<h3 id="改编成的r代码">改编成的R代码：</h3>
+<h4 id="shortestpathr">shortestpath.R</h4>
+<pre><code>shortestpath &lt;- function(node) {
+  n &lt;- nrow(node)
+
+  for (i in 1:n) { #此处确认每一个节点的根节点所在
+    if(node[i,&quot;u&quot;]!=0) node[node[i, &quot;u&quot;], &quot;father&quot;] &lt;- i
+    if(node[i,&quot;v&quot;]!=0) node[node[i, &quot;v&quot;], &quot;father&quot;] &lt;- i
+    #在C++的数组（向量）a[]中，a[0]是允许存在的，但R语言中似乎并不能这样，因此在0.1.1版本进行修正
+  }
+
+  ans &lt;- Inf
+  for (i in 1:n) { #枚举将医院设置在各个节点上的情况，然后将总路程进行比较.
+    sum &lt;- 0
+    for (j in 1:n) { #计算其他的每个节点到医院设置节点的最短路径
+      if (i != j) {
+        a &lt;- .dfs(j, 0, 0, i, j, node)
+        sum &lt;- sum + a
+      }
+    }
+    ans &lt;- min(ans, sum)
+  }
+  return(ans)
+}
+
+#深度优先搜索算法解最短路，百度应该有一大堆解释（大雾）
+.dfs &lt;- function(o, pre, num, end, begin, node) {
+  #o表示当前所在的位置
+  #pre表示上一步所在的位置
+  #num表示已经走过的距离
+  #end表示目的地（也就是医院所在的位置）
+  #begin表示出发地（也就是居民家所在的位置）
+  if (o == 0) return(Inf) #如果这条路无法到达目的地就不要再走了
+  if (o == end) { #抵达终点（医院），比较总路程
+    return(min(num * node[begin, &quot;w&quot;], Inf))
+  }
+  a &lt;- Inf
+  if (node[o, &quot;father&quot;] != pre) {
+    a &lt;- min(a, .dfs(node[o, &quot;father&quot;], o, num + 1, end, begin, node))
+  }
+  if (node[o, &quot;u&quot;] != pre) {
+    a &lt;- min(a, .dfs(node[o, &quot;u&quot;], o, num + 1, end, begin, node))
+  }
+  if (node[o, &quot;v&quot;] != pre) {
+    a &lt;- min(a, .dfs(node[o, &quot;v&quot;], o, num + 1, end, begin, node))
+  }
+  return(a)
+}
+</code></pre>
+<h4 id="shortestpathrd">shortestpath.Rd</h4>
+<pre><code>\name{shortestpath}
+\alias{shortestpath}
+\title{Calculate the minimum sum of the distance traveled by all residents}
+\usage{
+shortestpath(node)
+}
+\arguments{
+  \item{node}{a data frame that contains w, u and v, respectively represents the population, the left child node and the right child node of the current node.}
+}
+\description{
+    Let's say we have a binary tree like this:\url{https://cdn.luogu.com.cn/upload/image_hosting/kawht13x.png}
+
+    The number in the circle represents the population of residents in the node. The number on the edge of the circle indicates the node number. Now, it is required to build a hospital on a certain node, so that the sum of the distance traveled by all the residents is minimized, and the distance between adjacent contacts is 1. As shown in the figure above, if the hospital is built in the 1st place, the distance sum =4+12+2×20+2×40=136; If the hospital is built in the 3rd places, the distance sum =4×2+13+20+40=81.
+
+    For Chinese version and examples, please click: \url{https://www.luogu.com.cn/problem/P1364}
+}
+\examples{
+node=data.frame(
+  w = c(13,4,12,20,40),  #w represents population.
+  u = c(2,0,4,0,0), #u represents the left child node.
+  v = c(3,0,5,0,0), #v represents the right child node.
+  father =c(0,0,0,0,0) #father denotes the root node (also called the parent node) of the node.
+)
+shortestpath(node)
+}
+</code></pre>
+<h4 id="description">Description</h4>
+<pre><code>Package: SettingHospital
+Type: Package
+Title: Calculate the minimum sum of the distance traveled by all residents
+Version: 0.1.1
+Author: Zheng Dongwei
+Maintainer: Zheng Dongwei &lt;zhengdw6@mail2.sysu.edu.cn&gt;
+Description: Let's say we have a binary tree like this:\url{https://cdn.luogu.com.cn/upload/image_hosting/kawht13x.png}.
+    The number in the circle represents the population of residents in the node. The number on the edge of the circle indicates the node number. Now, it is required to build a hospital on a certain node, so that the sum of the distance traveled by all the residents is minimized, and the distance between adjacent contacts is 1. As shown in the figure above, if the hospital is built in the 1st place, the distance sum =4+12+2×20+2×40=136; If the hospital is built in the 3rd places, the distance sum =4×2+13+20+40=81.
+    For Chinese version and examples, please click:\url{https://www.luogu.com.cn/problem/P1364}.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+</code></pre>
+<h4 id="namespace">NAMESPACE</h4>
+<pre><code>exportPattern(&quot;^[[:alpha:]]+&quot;)
+
+</code></pre>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://maomaohead.github.io/post/ban-cheng-pin-viral-and-host-mediators-of-non-suppressible-hiv-1-viremia/" class="post-title gt-a-link">
+                    【半成品】Viral and host mediators of non-suppressible HIV-1 viremia
+                </a>
+            </div>
+        
+
+        
+            <span id="/post/r-yu-yan-gong-xuan-jie-ke-zuo-ye/" class="leancloud_visitors" data-flag-title="R语言公选结课作业">
+                <em class="post-meta-item-text">阅读量 </em>
+                <i class="leancloud-visitors-count">0</i>
+            </span>
+        
+
+        
+
+        
+            <script src="//unpkg.com/valine@1.4.4/dist/Valine.min.js"></script>
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 1000px;
+		padding: 2.5%
+	}
+</style>
+
+	<div id="vcomments"></div>
+
+<script>
+	new Valine({
+		el: '#vcomments',
+		appId: 'vv5zypM7G7gTNiwDJWetT70H-gzGzoHsz',
+		appKey: '4a1VPIanP1MMubqUYBOHZ3vn',
+		avatar: '',
+		pageSize: 5,
+		recordIp: true,
+		placeholder: 'Just Go Go',
+		visitor: true,
+		enableQQ: true,
+		boolean: true,
+	});
+</script>
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">爆肝蓝色生死恋</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <script src="/media/scripts/des.js"></script></br>
+    <h4 id="sitetime"></h4></br>
+    <div class="footer-info">
+        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+    </div>
+    <div>
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+        Theme by <a href="https://www.minloha.cn" target="_blank">Minloha</a>, Powered by <a
+                href="https://github.com" target="_blank">Gridea
+    </div>
+</div>
+<script src="/media/scripts/Meting.min.js"></script>
+<script src="/media/scripts/dialog.js"></script>
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
+</html>

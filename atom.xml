@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-13T15:11:37.429Z</updated>
+    <updated>2023-12-13T15:19:32.211Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -10,6 +10,190 @@
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[R语言公选结课作业]]></title>
+        <id>https://maomaohead.github.io/post/r-yu-yan-gong-xuan-jie-ke-zuo-ye/</id>
+        <link href="https://maomaohead.github.io/post/r-yu-yan-gong-xuan-jie-ke-zuo-ye/">
+        </link>
+        <updated>2023-12-13T15:12:06.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="洛谷p1364-医院设置">洛谷P1364 医院设置</h2>
+<h3 id="题目描述">题目描述</h3>
+<p>设有一棵二叉树，如图：</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.luogu.com.cn/upload/image_hosting/kawht13x.png" alt="" loading="lazy"></figure>
+<p>其中，圈中的数字表示结点中居民的人口。圈边上数字表示结点编号，现在要求在某个结点上建立一个医院，使所有居民所走的路程之和为最小，同时约定，相邻接点之间的距离为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>。如上图中，若医院建在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> 处，则距离和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>=</mo><mn>4</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>2</mn><mo>×</mo><mn>20</mn><mo>+</mo><mn>2</mn><mo>×</mo><mn>40</mn><mo>=</mo><mn>136</mn></mrow><annotation encoding="application/x-tex">=4+12+2\times20+2\times40=136</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">3</span><span class="mord">6</span></span></span></span>；若医院建在 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>3</mn></mrow><annotation encoding="application/x-tex">3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">3</span></span></span></span> 处，则距离和 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>=</mo><mn>4</mn><mo>×</mo><mn>2</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>20</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>81</mn></mrow><annotation encoding="application/x-tex">=4\times2+13+20+40=81</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">4</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">×</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">1</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.72777em;vertical-align:-0.08333em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">4</span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">8</span><span class="mord">1</span></span></span></span>。</p>
+<h3 id="输入格式">输入格式</h3>
+<p>第一行一个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>，表示树的结点数。</p>
+<p>接下来的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span> 行每行描述了一个结点的状况，包含三个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>w</mi><mo separator="true">,</mo><mi>u</mi><mo separator="true">,</mo><mi>v</mi></mrow><annotation encoding="application/x-tex">w, u, v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span>，其中 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>w</mi></mrow><annotation encoding="application/x-tex">w</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span></span></span></span> 为居民人口数，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi></mrow><annotation encoding="application/x-tex">u</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">u</span></span></span></span> 为左链接（为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 表示无链接），<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>v</mi></mrow><annotation encoding="application/x-tex">v</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span></span></span></span> 为右链接（为 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span> 表示无链接）。</p>
+<h3 id="输出格式">输出格式</h3>
+<p>一个整数，表示最小距离和。</p>
+<h3 id="样例-1">样例 #1</h3>
+<h4 id="样例输入-1">样例输入 #1</h4>
+<pre><code>5						
+13 2 3
+4 0 0
+12 4 5
+20 0 0
+40 0 0
+</code></pre>
+<h4 id="样例输出-1">样例输出 #1</h4>
+<pre><code>81
+</code></pre>
+<h3 id="提示">提示</h3>
+<h4 id="数据规模与约定">数据规模与约定</h4>
+<p>对于 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>100</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">100\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.80556em;vertical-align:-0.05556em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span><span class="mord">%</span></span></span></span> 的数据，保证 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>n</mi><mo>≤</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">1 \leq n \leq 100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn><mo>≤</mo><mi>u</mi><mo separator="true">,</mo><mi>v</mi><mo>≤</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">0 \leq u, v \leq n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">0</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8304100000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">u</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">v</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mo>≤</mo><mi>w</mi><mo>≤</mo><mn>1</mn><msup><mn>0</mn><mn>5</mn></msup></mrow><annotation encoding="application/x-tex">1 \leq w \leq 10^5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.78041em;vertical-align:-0.13597em;"></span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">5</span></span></span></span></span></span></span></span></span></span></span>。</p>
+<hr>
+<h3 id="由此写出来的c代码">由此写出来的C++代码：</h3>
+<pre><code>#include&lt;bits/stdc++.h&gt;
+using namespace std;
+struct node{ //这个struct可以理解为R语言中的data.frame
+	int rc,lc,father,x; 
+	//rc表示当前节点的右子节点
+	//lc表示当前节点的左子节点
+	//father表示当前节点的根节点，也叫双亲节点
+	//x表示当前节点的居民数量
+}a[101];
+int n,ans=INT_MAX,ans1;
+void dfs(int o,int pre,int num,int end,int begin){ //最短路
+	//o表示当前所在节点
+	//pre表示上一步所在的节点
+	//num表示当前所走的距离
+	//end即destination
+	//begin表示出发点
+	if(o==0) return; 
+	//如果这个节点没有子节点，走不通，那就不走了，换其他路试试看
+	if(o==end) ans1=min(ans1,num*a[begin].x);
+	//走到了destination，比较最短路径
+	if(a[o].father!=pre) dfs(a[o].father,o,num+1,end,begin);
+	//如果当前节点的根节点没有走过，那就走一下试试看（这个判定条件是为了防止居民在两个节点之间反复横跳造成死循环）
+	if(a[o].lc!=pre) dfs(a[o].lc,o,num+1,end,begin);
+	//如果当前的左侧子节点没有走过，那就走一下试试看
+	if(a[o].rc!=pre) dfs(a[o].rc,o,num+1,end,begin);
+	//如果当前节点的右侧子节点没有走过，那就走一下试试看
+}
+int main(){
+	//以下这一段为输入
+	cin&gt;&gt;n;
+	for(int i=1;i&lt;=n;i++){
+		int x,y,z;
+		cin&gt;&gt;x&gt;&gt;y&gt;&gt;z;
+		a[i].x=x; 
+		a[i].lc=y; 
+		a[i].rc=z; 
+		a[y].father=i; 
+		a[z].father=i;
+	}
+	a[0].father=0;
+	for(int i=1;i&lt;=n;i++){ //枚举医院设置在各个节点上的情形
+		int sum=0;
+		for(int j=1;j&lt;=n;j++)  //求其他各个节点的居民到达医院的最短距离
+			if(i!=j){ //医院所在节点上的居民到医院的距离为0，不需要算进总距离里
+				ans1=INT_MAX; //初始化最短路为无穷大
+				dfs(j,0,0,i,j); //求j号节点到i号节点的最短距离
+				sum+=ans1; //求各个节点到医院所在节点的距离和
+			}
+		ans=min(sum,ans); //比较最小值
+	}
+	cout&lt;&lt;ans; //输出答案
+    return 0;
+}
+</code></pre>
+<hr>
+<h3 id="改编成的r代码">改编成的R代码：</h3>
+<h4 id="shortestpathr">shortestpath.R</h4>
+<pre><code>shortestpath &lt;- function(node) {
+  n &lt;- nrow(node)
+
+  for (i in 1:n) { #此处确认每一个节点的根节点所在
+    if(node[i,&quot;u&quot;]!=0) node[node[i, &quot;u&quot;], &quot;father&quot;] &lt;- i
+    if(node[i,&quot;v&quot;]!=0) node[node[i, &quot;v&quot;], &quot;father&quot;] &lt;- i
+    #在C++的数组（向量）a[]中，a[0]是允许存在的，但R语言中似乎并不能这样，因此在0.1.1版本进行修正
+  }
+
+  ans &lt;- Inf
+  for (i in 1:n) { #枚举将医院设置在各个节点上的情况，然后将总路程进行比较.
+    sum &lt;- 0
+    for (j in 1:n) { #计算其他的每个节点到医院设置节点的最短路径
+      if (i != j) {
+        a &lt;- .dfs(j, 0, 0, i, j, node)
+        sum &lt;- sum + a
+      }
+    }
+    ans &lt;- min(ans, sum)
+  }
+  return(ans)
+}
+
+#深度优先搜索算法解最短路，百度应该有一大堆解释（大雾）
+.dfs &lt;- function(o, pre, num, end, begin, node) {
+  #o表示当前所在的位置
+  #pre表示上一步所在的位置
+  #num表示已经走过的距离
+  #end表示目的地（也就是医院所在的位置）
+  #begin表示出发地（也就是居民家所在的位置）
+  if (o == 0) return(Inf) #如果这条路无法到达目的地就不要再走了
+  if (o == end) { #抵达终点（医院），比较总路程
+    return(min(num * node[begin, &quot;w&quot;], Inf))
+  }
+  a &lt;- Inf
+  if (node[o, &quot;father&quot;] != pre) {
+    a &lt;- min(a, .dfs(node[o, &quot;father&quot;], o, num + 1, end, begin, node))
+  }
+  if (node[o, &quot;u&quot;] != pre) {
+    a &lt;- min(a, .dfs(node[o, &quot;u&quot;], o, num + 1, end, begin, node))
+  }
+  if (node[o, &quot;v&quot;] != pre) {
+    a &lt;- min(a, .dfs(node[o, &quot;v&quot;], o, num + 1, end, begin, node))
+  }
+  return(a)
+}
+</code></pre>
+<h4 id="shortestpathrd">shortestpath.Rd</h4>
+<pre><code>\name{shortestpath}
+\alias{shortestpath}
+\title{Calculate the minimum sum of the distance traveled by all residents}
+\usage{
+shortestpath(node)
+}
+\arguments{
+  \item{node}{a data frame that contains w, u and v, respectively represents the population, the left child node and the right child node of the current node.}
+}
+\description{
+    Let's say we have a binary tree like this:\url{https://cdn.luogu.com.cn/upload/image_hosting/kawht13x.png}
+
+    The number in the circle represents the population of residents in the node. The number on the edge of the circle indicates the node number. Now, it is required to build a hospital on a certain node, so that the sum of the distance traveled by all the residents is minimized, and the distance between adjacent contacts is 1. As shown in the figure above, if the hospital is built in the 1st place, the distance sum =4+12+2×20+2×40=136; If the hospital is built in the 3rd places, the distance sum =4×2+13+20+40=81.
+
+    For Chinese version and examples, please click: \url{https://www.luogu.com.cn/problem/P1364}
+}
+\examples{
+node=data.frame(
+  w = c(13,4,12,20,40),  #w represents population.
+  u = c(2,0,4,0,0), #u represents the left child node.
+  v = c(3,0,5,0,0), #v represents the right child node.
+  father =c(0,0,0,0,0) #father denotes the root node (also called the parent node) of the node.
+)
+shortestpath(node)
+}
+</code></pre>
+<h4 id="description">Description</h4>
+<pre><code>Package: SettingHospital
+Type: Package
+Title: Calculate the minimum sum of the distance traveled by all residents
+Version: 0.1.1
+Author: Zheng Dongwei
+Maintainer: Zheng Dongwei &lt;zhengdw6@mail2.sysu.edu.cn&gt;
+Description: Let's say we have a binary tree like this:\url{https://cdn.luogu.com.cn/upload/image_hosting/kawht13x.png}.
+    The number in the circle represents the population of residents in the node. The number on the edge of the circle indicates the node number. Now, it is required to build a hospital on a certain node, so that the sum of the distance traveled by all the residents is minimized, and the distance between adjacent contacts is 1. As shown in the figure above, if the hospital is built in the 1st place, the distance sum =4+12+2×20+2×40=136; If the hospital is built in the 3rd places, the distance sum =4×2+13+20+40=81.
+    For Chinese version and examples, please click:\url{https://www.luogu.com.cn/problem/P1364}.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+</code></pre>
+<h4 id="namespace">NAMESPACE</h4>
+<pre><code>exportPattern(&quot;^[[:alpha:]]+&quot;)
+
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【半成品】Viral and host mediators of non-suppressible HIV-1 viremia]]></title>
         <id>https://maomaohead.github.io/post/ban-cheng-pin-viral-and-host-mediators-of-non-suppressible-hiv-1-viremia/</id>
@@ -410,41 +594,6 @@ In a nutshell, a number of factors may be relevant to our well-being, of which g
 ²: <a href="https://www.icourse163.org/course/CSU-1001930016">生理學_中南大學_中國大學MOOC(慕課)</a><br>
 ³: <a href="https://zhidao.baidu.com/question/943279892433129532.html">為什麼要學習生理學?它的意義是什麼?能在哪些方面給我們提供幫助?_百度知道</a><br>
 ⁴: <a href="https://www.zhihu.com/question/393197436">如何學好醫學生理學? - 知乎</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国能成功实行改革开放的原因分析]]></title>
-        <id>https://maomaohead.github.io/post/zhong-guo-neng-cheng-gong-shi-xing-gai-ge-kai-fang-de-yuan-yin-fen-xi/</id>
-        <link href="https://maomaohead.github.io/post/zhong-guo-neng-cheng-gong-shi-xing-gai-ge-kai-fang-de-yuan-yin-fen-xi/">
-        </link>
-        <updated>2023-07-11T07:44:00.000Z</updated>
-        <content type="html"><![CDATA[<p>1978年，中国开始实行对内改革，对外开放的新经济政策，缓缓敲开了中国特色社会主义道路的大门。在改革开放的四十多年间，中国发生了翻天覆地的变化，实现了从站起来到富起来的飞跃。从国内生产总值来看，1978年中国仅有3645亿美元，而2021年中国达到了114.37万亿美元；从人均寿命来看，中国从1978年的66岁提升至2021年的78.2岁；而2020年，中国摆脱了绝对贫困，实现了全面建成小康社会的伟大目标。中国在世界经济史上书写了前所未有的辉煌，而这些发展成就无不印证了中国改革开放的成功。<br>
-<img src="https://maomaohead.github.io/post-images/1689061467279.png" alt="" loading="lazy"><br>
-<img src="https://maomaohead.github.io/post-images/1689061472607.png" alt="" loading="lazy"></p>
-<p>然而，当我们把时间线拉回到改革开放之前，我们会发现，此时的中国尽管在一些领域取得重要成就，但是整体还是千疮百孔——文化大革命使得党和国家受到了建国以来最严重的损失，经济发展停滞不前、政治体制和法律体系受到严重破坏、百姓生活受到严重干扰……但是，中国正是在如此薄弱的基础上，通过改革开放之路，步步为营，将自己从积贫积弱的国家建设成为世界第二大经济体。</p>
-<p>那么，为何中国为何能将改革开放实行得如此成功呢？笔者认为应当从以下几点进行分析。</p>
-<h2 id="一-思想的不断解放为中国的发展奠定了基础">一、	思想的不断解放为中国的发展奠定了基础</h2>
-<p>1977年，《人民日报》、《红旗》杂志和《解放军报》提出了“两个凡是”；而对此，《光明日报》在1978年针锋相对地发表了社论《实践是检验真理的唯一标准》，在全国范围内引发了一场对于真理检验标准的大讨论。而在1978年12月举行的十一届三中全会上，邓小平在闭幕式作题为《解放思想，实事求是，团结一致向前看》的报告，最终突破了“两个凡是”左倾思想的篱笆，批判、摒弃了教条主义和对毛泽东同志的盲目个人崇拜，使党的思想路线重新回到真正的马克思主义思想上来。自此，中国顽固的“左”倾思想被逐步破除，思想的解放逐渐开始，改革开放终于有了比较坚实的思想和舆论条件。</p>
-<p>思想的不断解放为后来的改革开放奠定下了牢固的基础。一方面，人们逐渐认识到改革开放并不是国家资本主义化，不再死死纠缠于姓“资”还是姓“社”的问题，国家的主要任务得以从阶级斗争转移到经济建设，；另一方面，思想的解放使得马克思中国化的理论创新不断涌现，邓小平思想、“三个代表”重要思想、科学发展观、习近平新时代中国特色社会主义思想等理论为中国的发展实践提供了理论基础，而中国改革开放的伟大实践反过来为新思想、新成果的涌现提供了事实支撑，二者形成正反馈循环，为中国的发展注入了强大的动力。</p>
-<h2 id="二-对外来优秀的技术经验有选择地吸取为中国的发展提供了借鉴">二、	对外来优秀的技术经验有选择地吸取为中国的发展提供了借鉴</h2>
-<p>改革开放之前，中国在经济政策上一直追随模仿苏联的经验，优先发展重工业，并实施计划经济制度。尽管中国在某些方面取得比较显著的成就，但是生产力并没有得到充分释放，甚至导致社会动荡一系列严重的问题。<br>
-在付出极其惨痛的代价后，中国痛定思痛，一改盲目模仿其他国家的做法。改革开放以来，中国一直坚持有选择地改造和吸收外来技术经验，努力克服“水土不服”的难题。 “不忘本来，吸收外来，面向未来”逐渐成为中国对待外来技术经验的新态度。改革开放以来，中国对外来经验始终坚持“取其精华，去其糟粕”，让外来优秀经验本土化、实际化，融入原有理论，为实践提供方法指引。因此，中国得以同时借外来优秀经验和自身已有方法的力量，在经济发展的汪洋大海中破浪致远。</p>
-<h2 id="三-外部环境的相对稳定为中国的发展提供了保障">三、	外部环境的相对稳定为中国的发展提供了保障</h2>
-<p>自1840年以来，中国一直生活在一个内忧外患的环境中。从鸦片战争、甲午中日战争、八国联军侵华战争，再到后来的抗日战争、美苏冷战、中苏环境恶化，中国发展的外部环境很不和平。但是改革开放的四十年，恰好是世界相对和平的四十年。在这四十多年中，尽管局部热战不断，但和平与发展已然成为国际社会的主流，国际竞争也更多地转向以经济和科技实力为主的综合国力的竞争。</p>
-<p>相对稳定的外部环境为中国提供了一个绝佳的发展机遇，而中国也抓住了这个机遇，开启了高速发展的黄金时期。在改革开放前夕，中美、中日建交，而中国与苏联的敌对关系有所缓和；而在改革开放的四十多年里，中国在外交方面不断取得新进展，与世界各国的关系不断得到巩固与发展。这使得中国在发展道路上能够左右逢源，更加省力地引进国外先进的生产技术和管理经验，也使得中国制造业的商品能够畅销世界各国市场，从而让原本百废待兴的中国经济重新涌现出勃勃生机。</p>
-<h2 id="四-渐进式改革为中国的发展提供了过渡空间">四、	渐进式改革为中国的发展提供了过渡空间</h2>
-<p>西方国家在进行经济改革时通常热衷于使用 “休克疗法”，即通过比较严厉的政策，企图在短时间内强制性地达到理想的效果。虽然这种激进的改革方式过曾在一些国家的经济改革中发挥了重要作用（如玻利维亚），但是失败案例也是数不胜数（如俄罗斯）。“休克疗法”的成功实施需要比较严苛的客观条件，如相对稳定的宏观经济、比较完善的市场秩序等。而彼时的中国刚从十年文革的阴影中走出来，经济基础十分薄弱，市场秩序比较混乱，无法承受政策的剧烈改变所带来的巨大压力。此外，在改革开放初期，由于“左”倾思想的遗留影响，仍有许多人对改革开放保持怀疑、观望态度，不支持在全国范围内实行改革开放的新政策。</p>
-<p>于是，中国采取了一种比较折中的方式，采用循序渐进的改革方式，首先在深圳、珠海、汕头、厦门四个沿海城市设立经济特区，试点推行新政策，完善投资环境，吸引外国投资者在特区投资设厂；在特区城市取得比较不错的建设成果之后，再逐步扩大开放程度，依次设立沿海开放城市、沿海经济开放区等，走出了一条由点到线再到面、由沿海到内陆的发展路线，逐步形成了全方位、宽领域、多层次的开放格局，开辟了中华民族伟大复兴的新道路。</p>
-<p>在西方国家中曾经兴起过“中国崩溃论”，西方许多学者认为，中国采取渐进式改革必然失败，因为如此会导致优质资源过度向试点城市流动而使资源分配严重不均衡，同时还会滋生大量贪污腐败，腐蚀中国的政治经济体制。但是让他们大跌眼镜的是，中国经济非但没有崩溃，反而建立并完善了社会主义市场经济体制；甚至在2008年金融危机和2020年新冠疫情之中，西方国家遭受沉重打击一蹶不振，而中国一枝独秀书写经济奇迹。这是因为相对缓慢的渐进式改革给予了当时经济基础薄弱、市场秩序尚不完善的中国更多的过渡空间，让中国经济在变革过程中承受的压力尽可能小，用相对较小的代价实现中国经济的大转型，从而实现中国经济的稳定发展。</p>
-<h2 id="五-中国人民的勤劳品质为中国的发展注入了强大动力">五、中国人民的勤劳品质为中国的发展注入了强大动力</h2>
-<p>国家主席习近平同志曾指出：“中国人民自古就明白，世界上没有坐享其成的好事，要幸福就要奋斗。”在中国独特的历史文化氛围潜移默化的影响下，每一个中国人民都深知多劳多得之理，“勤劳”已经成为中国劳动者的代名词。改革开放之初，无数先锋下海经商，为改革开放杀出一条“血路”；互联网浪潮中，有腾讯、阿里巴巴、百度三大互联网巨头傲然屹立；如今，更有华为、比亚迪等新兴科技企业坚持关键技术自研之路。除此之外，更有无数不知名的中国劳动人民在灯火阑珊处默默奉献。所有奋斗者默默耕耘，共同拉动了中国经济这辆大马车。</p>
-<p>中国人口劳动参与率是其他国家可遇而不可求的。根据国家统计局数据，2009年中国的劳动参与率高达73.4%，远高于世界平均水平（64.7%），更是遥遥领先于美国（65.0%）、日本（59.5%）等发达经济体。中国人民任劳任怨、默默耕耘，方在中华广袤的大地上书写了前所未有的经济奇迹。</p>
-<p>**结语：**改革开放开始于文化大革命之后，正处于党在沉重反思“左”倾错误带来的严重后果之时，中国结合自身的历史文化、经济基础、外部环境等具体国情，向前迈出的正确一步。中国共产党紧紧地抓住了历史机遇期，和广大的劳动人民一起，朝着中华民族伟大复兴的正确方向前进！</p>
-<p>参考文献：<br>
-[1] <a href="http://www.stats.gov.cn/tjsj/tjgb/ndtjgb/">http://www.stats.gov.cn/tjsj/tjgb/ndtjgb/</a> 国家统计局年度统计公报[引用日期：2020/10/12]<br>
-[2] <a href="https://baike.baidu.com/item/%E4%BC%91%E5%85%8B%E7%96%97%E6%B3%95/71882#2">https://baike.baidu.com/item/%E4%BC%91%E5%85%8B%E7%96%97%E6%B3%95/71882#2</a> 休克疗法-百度百科[引用日期：2020/10/12]<br>
-[3] <a href="https://baike.baidu.com/item/%E4%BC%91%E5%85%8B%E7%96%97%E6%B3%95/71882#2">https://baike.baidu.com/item/%E6%B8%90%E8%BF%9B%E5%BC%8F%E6%94%B9%E9%9D%A9/11045922</a> 渐进式改革-百度百科[引用日期：2020/10/12]<br>
-[4] <a href="http://www.stats.gov.cn/ztjc/ztsj/gjsj/2011/201207/t20120711_72679.html">http://www.stats.gov.cn/ztjc/ztsj/gjsj/2011/201207/t20120711_72679.html</a> 国家统计局劳动参与率[引用日期：2020/10/12]</p>
 ]]></content>
     </entry>
 </feed>
