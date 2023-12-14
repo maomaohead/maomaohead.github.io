@@ -20,7 +20,7 @@ function siteTime(){
             minutes - 0-59之间的整数，做为date对象的分钟数
             seconds - 0-59之间的整数，做为date对象的秒数
             microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-            var t1 = Date.UTC(2021,1,13,00,00,00)
+            var t1 = Date.UTC(2023,7,8,16,00,00)
             var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)
             var diff = t2-t1
             var diffYears = Math.floor(diff/years)
