@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-14T01:45:40.438Z</updated>
+    <updated>2023-12-14T04:57:42.337Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[工作日志]]></title>
+        <id>https://maomaohead.github.io/post/gong-zuo-ri-zhi/</id>
+        <link href="https://maomaohead.github.io/post/gong-zuo-ri-zhi/">
+        </link>
+        <updated>2023-12-14T04:55:39.000Z</updated>
+        <content type="html"><![CDATA[<p>为了保证期末复习稳步推进，在这里更新每天的学习进度。</p>
+<h1 id="2023年12月14日">2023年12月14日</h1>
+<p>1、完成生化第二十四章的学习，完成绿皮及医考帮的题目。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[R语言公选结课作业]]></title>
         <id>https://maomaohead.github.io/post/r-yu-yan-gong-xuan-jie-ke-zuo-ye/</id>
@@ -570,30 +581,6 @@ In a nutshell, a number of factors may be relevant to our well-being, of which g
 <p>但在抗日战争中，由于法西斯力量已经严重威胁各国的利益，这些国家纷纷伸出援手，支持中国的抗日战争。例如苏联在全面抗战爆发后不久就率先支援中国，并向中国运输军火物资。美国、英国、法国等国也曾给中国提供军事或经济援助。尽管有些国家提供援助并不单纯，但这些援助事实上增强了中国的反法西斯力量，为战胜日本帝国主义侵略贡献了力量。</p>
 <p>除了上述所提及的领导力量、人民群众民族意识的觉醒与否、国外援助等因素，仍有许多因素未在上文提及，诸如作战时的军事思路等。但领导力量团结与否、民族意识的觉醒与否、国际舆论的风向，无疑是抗战成败的决定性因素。中国的政党、人民群众和世界其他的反法西斯力量一起合作，相互配合，共同击退了日军的侵略。</p>
 <p>尽管如今的中国已经不复百年前的贫弱，抗日战争对当下的中国仍有重要意义。首先，必须坚持中国共产党执政、其他政党参政议政的政治协商制度，各主要党派共商国是，以对话协商的方式解决分歧，从而保持领导力量的强大。另外，必须持续推进爱国主义教育，不断增强老百姓的民族意识、激发老百姓的爱国热情，激励每一位中华儿女为祖国发展繁荣而不懈奋斗。最后，必须推进人类命运共同体的建设。当各个国家面临着共同的挑战时，将力量聚积起来，可以让我们在应对挑战时更加游刃有余。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Bing - 生理学的学习方法]]></title>
-        <id>https://maomaohead.github.io/post/new-bing-sheng-li-xue-de-xue-xi-fang-fa/</id>
-        <link href="https://maomaohead.github.io/post/new-bing-sheng-li-xue-de-xue-xi-fang-fa/">
-        </link>
-        <updated>2023-07-30T08:42:48.000Z</updated>
-        <content type="html"><![CDATA[<p>您好，这是必应。我很乐意为您介绍一下生理学与它的学习方法。☺️</p>
-<h2 id="生理学的定义">生理学的定义</h2>
-<p>生理学是研究生物体及其各组成部分正常功能活动规律的学科，是有关生命之逻辑的学问。其任务是研究生物体及其细胞、组织、器官等组成部分所表现的各种生命现象的活动规律和生理功能，阐明其产生机制，以及机体应对内、外环境变化时对这些活动的调节。¹</p>
-<p>生理学是医学科学的重要主干基础课之一，与其他医学基础课和临床课有着密切的联系。只有了解和掌握了机体正常的生命活动规律，才能理解和掌握机体异常的生命活动及其规律，所以生理学是我们理解疾病、防治疾病的基础。</p>
-<h2 id="生理学的学习方法和窍门">生理学的学习方法和窍门</h2>
-<ul>
-<li>预习-听课-做题-看书课本，视频+习题集。⁴ 预习可以帮助您对即将学习的内容有一个大致的了解，听课可以让您跟随老师的思路深入掌握重点和难点，做题可以检验您的理解程度和记忆效果，看书课本可以巩固您的知识体系，视频+习题集可以提供您更多的视听资料和练习机会。</li>
-<li>把握住记忆，就能在学习上学好生理学，学好医学。⁴ 生理学涉及大量的概念、术语、公式、图表等，需要您有良好的记忆能力。您可以利用一些记忆技巧，如联想、分类、归纳、总结、重复等，来提高您的记忆效率和质量。</li>
-<li>理解为主，死记为辅。³ 生理学不仅要求您记住一些事实性的知识，更要求您能够理解一些原理性、机制性、规律性的知识。您要尽量通过逻辑推理、实验验证、临床应用等方式来深入理解生理现象的本质和意义，而不是单纯地死记硬背。</li>
-<li>联系实际，举一反三。³ 生理学是一门与人体健康密切相关的学科，您要尽量把所学的知识与实际生活中的情况相联系，从而增强您对生理学的兴趣和认同感。同时，您要善于运用所学的知识去分析和解决一些新出现的问题或情景，从而提高您对生理学的应用能力。</li>
-</ul>
-<h2 id="参考资料">参考资料</h2>
-<p>¹: <a href="https://zh.wikipedia.org/wiki/%E7%94%9F%E7%90%86%E5%AD%A6">生理學 - 维基百科</a><br>
-²: <a href="https://www.icourse163.org/course/CSU-1001930016">生理學_中南大學_中國大學MOOC(慕課)</a><br>
-³: <a href="https://zhidao.baidu.com/question/943279892433129532.html">為什麼要學習生理學?它的意義是什麼?能在哪些方面給我們提供幫助?_百度知道</a><br>
-⁴: <a href="https://www.zhihu.com/question/393197436">如何學好醫學生理學? - 知乎</a></p>
 ]]></content>
     </entry>
 </feed>
