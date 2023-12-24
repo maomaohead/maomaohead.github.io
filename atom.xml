@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-16T14:28:24.761Z</updated>
+    <updated>2023-12-24T06:02:18.887Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -10,6 +10,35 @@
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[《生物化学与分子生物学》绿皮大题答案整理]]></title>
+        <id>https://maomaohead.github.io/post/lesslesssheng-wu-hua-xue-yu-fen-zi-sheng-wu-xue-greatergreater-lu-pi-da-ti-da-an-zheng-li/</id>
+        <link href="https://maomaohead.github.io/post/lesslesssheng-wu-hua-xue-yu-fen-zi-sheng-wu-xue-greatergreater-lu-pi-da-ti-da-an-zheng-li/">
+        </link>
+        <updated>2023-12-24T04:39:14.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="第一篇-生物大分子结构与功能">第一篇 生物大分子结构与功能</h1>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="第一篇-生物大分子结构与功能">第一篇 生物大分子结构与功能</h1>
+<!-- more -->
+<h2 id="第一章-蛋白质的结构和功能">第一章 蛋白质的结构和功能</h2>
+<!-- more -->
+<h3 id="1-氨基酸有哪些理化特征这些特征对研究氨基酸有什么意义">1、氨基酸有哪些理化特征？这些特征对研究氨基酸有什么意义？</h3>
+<p>答：<br>
+（1）氨基酸的理化特征：<br>
+① 两性解离：氨基酸是一种两性电解质，具有两性解离的特性。氨基酸的解离方式取决于其所处溶液的酸碱度。<br>
+② 紫外吸收：根据紫外线的吸收光谱，含有共轭双键的色氨酸、酪氨酸的最大吸收峰在280nm波长附近。<br>
+③ 显色反应：茚三酮水合物在弱酸性溶液中与氨基酸共加热时，氨基酸被氧化脱氨、脱羧，而茚三酮水合物被还原，其还原物可以与氨基酸加热分解产生的氨结合，再与另一分子茚三酮缩合称为蓝紫色的化合物，此化合物最大吸收峰在570nm吸收峰处。<br>
+（2）研究意义：<br>
+① 等电点：在某一pH的溶液中，氨基酸解离成阳离子和阴离子的趋势及程度相等，称为兼性离子，呈电中性，此时溶液的pH称为该氨基酸的等电点。<br>
+② 分析蛋白质含量：由于大多数蛋白质含有酪氨酸和色氨酸残基，所以测定蛋白质溶液280nm的光吸收值，是分析溶液中蛋白质含量的快速简便的方法。<br>
+③ 氨基酸定量分析：由于茚三酮反应生成化合物吸收峰值的大小与氨基酸释放出的氨量成正比，因此茚三酮反应可作为氨基酸定量分析方法。</p>
+<h3 id="2-体内存在哪几种重要的生物活性肽请举例说明">2、体内存在哪几种重要的生物活性肽？请举例说明。</h3>
+<p>答：<br>
+（1）谷胱甘肽：谷胱甘肽（GSH）是由谷氨酸、半胱氨酸和甘氨酸组成的三肽，第一个肽键是非α肽键，由谷氨酸γ-羧基与半胱氨酸的氨基组成。GSH的巯基具有还原性，可作为体内重要的还原剂保护蛋白质或酶分子中巯基免遭氧化，使蛋白质或酶处在活性状态。此外，GSH的巯基还有嗜核特性，能和外源的嗜电子毒物如致癌剂或药物等结合，从而阻断这些化合物与DNA、RNA或蛋白质结合，以保护机体免遭毒物损害。<br>
+（2）多肽类激素：<br>
+（3）神经肽：</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【游记】2023年12月CET-6游记]]></title>
         <id>https://maomaohead.github.io/post/you-ji-2023-nian-12-yue-cet-6-you-ji/</id>
@@ -587,32 +616,6 @@ return(list(a,b,c,d))
 }
 Ptable(data$性别,data$吸烟与否)
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write an essay on health risk factors.]]></title>
-        <id>https://maomaohead.github.io/post/write-an-essay-on-health-risk-factors/</id>
-        <link href="https://maomaohead.github.io/post/write-an-essay-on-health-risk-factors/">
-        </link>
-        <updated>2023-08-31T11:01:34.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="作文要求">作文要求</h2>
-<p>Write an essay of no less than 200 words to state your view . You are supposed to give a title to your essay and support your argument with specific evidence.</p>
-<h2 id="我的作文">我的作文</h2>
-<h3 id="factors-that-influence-our-well-being">Factors that Influence Our Well-being</h3>
-<p>Currently, citizens attach more and more importance to maintaining their health. Frankly speaking, it is a great pity that many have not been taught about the potential factors that could affect our health, however. Reserving some knowledge about health risk factors will enable us to do better in preventing our body from illness.<br>
-Our body is affected by several factors, the most crucial ones of which is our lifestyle as well as our mind. For one thing, if you want to avoid sickness, you should never excuse yourself from forming good habits. Here are the examples - brushing your teeth at least twice a day can keep your teeth always bright, while washing hands frequently may protect you against the bacteria and the virus. On the other hand, getting into the habit of smoking cigarettes and drinking alcohol too often may lead to severe cancer, and an unhealthy diet will increase the possibility of hypertension. If you form healthy habits, your body will never come to terms with illnesses. For another thing, it is worth highlighting that a positive spirit is also able to lower our risk of getting in hospital. Studies are there, indicating the benefit of being positive. One with a positive mood will be more likely to be free from diseases than those continuously aroused by a depressed and helplessness feeling.<br>
-In a nutshell, a number of factors may be relevant to our well-being, of which good living habits and optimistic mental position are of grand importance to our own health. Having these in mind, individuals can take more effective actions to optimize their health and well-being.</p>
-<h2 id="批改网批改">批改网批改：</h2>
-<figure data-type="image" tabindex="1"><img src="https://maomaohead.github.io/post-images/1693581622878.jpg" alt="" loading="lazy"></figure>
-<hr>
-<h1 id="以下为第18版">以下为第18版</h1>
-<h2 id="我的作文-2">我的作文</h2>
-<h3 id="factors-that-influence-our-well-being-2">Factors that Influence Our Well-being</h3>
-<p>Nowadays, citizens attach more and more importance to maintaining their health. Frankly speaking, it is a great pity that many have not been taught about the potential factors that could affect our health, however. Having more knowledge of these will enable us to do better in preventing our body from illness.<br>
-Our body is affected by several factors, the most crucial ones of which are our lifestyle and optimistic heart. For one thing, if you want to avoid sickness, you should never excuse yourself from forming good habits. Here are the examples - brushing your teeth at least twice a day can keep your teeth always bright, while washing hands frequently may protect you against the bacteria and the virus. On the other hand, getting into the habit of smoking cigarettes and drinking alcohol too often may lead to severe cancer, and an unhealthy diet will increase the possibility of hypertension. If you form healthy habits, your body will never come to terms with illnesses. For another thing, it is worth highlighting that a positive spirit is also able to lower our risk of getting in hospital. Studies are there, indicating the benefit of being positive. One with a positive mood will be more likely to be free from diseases than those with a depressed and helplessness feeling.<br>
-In a nutshell, a number of factors may be relevant to our well-being, of which good living habits and optimistic mental position are of great importance to our own health. With awareness of these, individuals can take more effective actions to optimize their health and well-being.</p>
-<h2 id="批改网批改-2">批改网批改：</h2>
-<figure data-type="image" tabindex="2"><img src="https://maomaohead.github.io/post-images/1693480324461.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
