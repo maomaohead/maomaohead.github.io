@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-24T09:45:36.965Z</updated>
+    <updated>2023-12-24T14:31:06.628Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -10,6 +10,80 @@
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[《生理学》学海简答题整理]]></title>
+        <id>https://maomaohead.github.io/post/lesslesssheng-li-xue-greatergreater-xue-hai-jian-da-ti-zheng-li/</id>
+        <link href="https://maomaohead.github.io/post/lesslesssheng-li-xue-greatergreater-xue-hai-jian-da-ti-zheng-li/">
+        </link>
+        <updated>2023-12-24T13:06:19.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="第一章-绪论">第一章 绪论</h1>
+<ol>
+<li>（2019级期末）什么是前馈？其生理意义是什么？</li>
+<li>（2018级期末）机体功能是如何被调节的？</li>
+</ol>
+<h1 id="第二章-细胞的基本功能">第二章 细胞的基本功能</h1>
+<ol>
+<li>（2020级期末、2017级期末）钠泵的活动有何生理意义？</li>
+<li>（2019级期末）简述跨膜物质转运的方式。</li>
+</ol>
+<h1 id="第三章-血液">第三章 血液</h1>
+<ol>
+<li>（2020级期末）已知供血者血型为A型，交叉配血实验中主侧凝集，次侧不凝集，受血者血型是？</li>
+<li>（2019级期末）某人的红细胞与B型血的血清发生凝集，而其血清和B型血的红细胞不发生凝集，分析此人的血型。</li>
+<li>（2018级期末）血浆渗透压的组成和生理意义。</li>
+<li>（2017级期末）简述延缓血液凝固有哪些方法？</li>
+</ol>
+<h1 id="第四章-血液循环">第四章 血液循环</h1>
+<ol>
+<li>（2020级期末）心室肌细胞动作电位的离子机制？</li>
+<li>（2020级期末）高血压导致的心衰患者，为什么采取端坐体位可以缓解呼吸困难？</li>
+<li>（2020级期末）何为波尔效应？简述其产生机制和生理意义。</li>
+<li>（2018级期末）房室延搁的概念及其对心脏正常功能的意义。</li>
+<li>（2018级期末）简述CO中毒对血液携带<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>O</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">O_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>能力的影响及呼吸运动的变化，并解释为什么？</li>
+</ol>
+<h1 id="第五章-呼吸">第五章 呼吸</h1>
+<ol>
+<li>（2019级期末）试述肺表面活性物质的来源、成分和生理机制。</li>
+<li>（2017级期末）患者男性，23岁。左胸刀刺伤1小时来院，呼吸急促、唇发绀，胸部广泛皮下气肿，血压90/60mmHg，心率110次/分，左胸叩诊呈鼓音，左肺呼吸音消失、气管右偏，诊断为气胸。请从生理学角度简要解释该患者出现上述症状体征的原因。</li>
+<li></li>
+</ol>
+<h1 id="第六章-消化与吸收">第六章 消化与吸收</h1>
+<ol>
+<li>（2020级期末）简述消化道平滑肌的慢波、动作电位和肌肉收缩之间的关系。</li>
+<li>（2019级期末）请简述食物进入胃前，对胃液分泌的影响及机制。</li>
+<li>（2017级期末）某患者因上腹痛就诊，经过检查诊断为消化性溃疡，并开始服用“质子泵抑制剂”进行治疗，请简述其治疗溃疡的生理基础。</li>
+<li></li>
+</ol>
+<h1 id="第八章-尿的生成和排除">第八章 尿的生成和排除</h1>
+<ol>
+<li>（2020级期末）皮质肾单位和近髓肾单位在结构和功能上各有何特点？</li>
+<li>（2019级期末）肾小管各个阶段对水和钠的重吸收特点是什么？</li>
+<li></li>
+</ol>
+<h1 id="第九章-感觉器官的功能">第九章 感觉器官的功能</h1>
+<ol>
+<li>（2021级期末）在光线明亮的教室，一位同学课间休息时观察墙上的一个小飞虫，请问此时是视网膜上哪种感光换能系统在发挥作用？简述其功能特征。</li>
+<li>（2020级期末）为什么听自己说话的录音，感觉不像自己的声音？</li>
+<li>（2019级期末）简述视网膜上晚光觉系统和昼光觉系统的主要细胞组成及特点。</li>
+<li>（2018级期末）内脏痛的特点？</li>
+</ol>
+<h1 id="第十章-神经系统的功能">第十章 神经系统的功能</h1>
+<ol>
+<li>（2021级期末）脊髓高位截瘫患者，排尿还能进行吗？为什么？</li>
+<li>（2021级期末）简述EPSP的机制。</li>
+<li>（2021级期末）简述人的记忆过程。</li>
+<li>（2021级期末）简述长时程增强。</li>
+<li>（2017级期末）什么是感受器的适应现象？简述快适应感受器和慢适应感受器各自的生理意义？</li>
+</ol>
+<h1 id="第十一章-内分泌">第十一章 内分泌</h1>
+<ol>
+<li>（2021级期末）何谓雌激素分泌的双重细胞学说？</li>
+<li>（2021级期末）激素的一般生理作用有哪些？</li>
+<li>（2021级期末）简述生长激素的分泌调节。</li>
+<li>（2019级期末）请简述甲状腺激素的合成过程。</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《生物化学与分子生物学》绿皮大题答案整理]]></title>
         <id>https://maomaohead.github.io/post/lesslesssheng-wu-hua-xue-yu-fen-zi-sheng-wu-xue-greatergreater-lu-pi-da-ti-da-an-zheng-li/</id>
@@ -171,6 +245,13 @@
         </link>
         <updated>2023-12-14T04:55:39.000Z</updated>
         <content type="html"><![CDATA[<p>为了保证期末复习稳步推进，在这里更新每天的学习进度。</p>
+<h1 id="2023年12月24日">2023年12月24日</h1>
+<p>1、生化大题复习，启动！（完成了前两章的整理）</p>
+<h1 id="2023年12月16日~2023年12月23日">2023年12月16日~2023年12月23日</h1>
+<p>1、圆满完成医学统计学复习及测试。<br>
+2、完成英语We learn及批改网最后一次作文。<br>
+3、完成生化两次小测。<br>
+4、其他的事情。</p>
 <h1 id="2023年12月15日">2023年12月15日</h1>
 <p>1、在生化第二十四章小测中取得了满分的成绩。<br>
 <img src="https://maomaohead.github.io/post-images/1702631308811.jpg" alt="生化小测24" loading="lazy"></p>
@@ -434,267 +515,6 @@ LazyData: true
 <p>To start with, the body of one adult differs from that of one adolescent. The body becomes higher and stronger, accompanied by the maturity of secondary sex characters. What's more, it cannot be ignored that adults are more independent in comparison with adolescents. When one shifts from adolescence to adulthood, he gains more ability to live, think and make decisions on his own, and gradually becomes less and less independent on his parents. He will try to cope with the problem with nothing but his effort, rather than seeking assistance from others. Last but not least, taking on more responsibilities is the most significant matter for an adult, while adolescents sometimes still have the right to shirk some certain obligations. For one thing, adults are expected to make contributions to family, society and the country, from which adolescents are free. For another thing, adolescents often are given a lighter punishment than adults when they make mistakes.</p>
 <p>In a nutshell, much difference exists between adolescence and adulthood. However, it is worth emphasizing that the two periods of human life are closely related. We need to cherish the current stage of our life, whether we are adults or just adolescents.<br>
 （92分）</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[R★]]></title>
-        <id>https://maomaohead.github.io/post/r/</id>
-        <link href="https://maomaohead.github.io/post/r/">
-        </link>
-        <updated>2023-09-26T11:37:10.000Z</updated>
-        <content type="html"><![CDATA[<p>建立、查询表格</p>
-<pre><code>manager=c(1,2,3,4,5)
-date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&quot;5/1/09&quot;)
-country=c(&quot;US&quot;,&quot;US&quot;,&quot;UK&quot;,&quot;UK&quot;,&quot;UK&quot;)
-gender=c(&quot;M&quot;,&quot;F&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;)
-age=c(32,45,25,39,99)
-q1=c(5,3,3,3,2)
-q2=c(4,5,5,3,2)
-q3=c(5,2,5,4,1) 
-q4=c(5,5,5,NA,2)
-q5=c(5,5,2,NA,1)
-leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
-
-head(leadership)
-
-leadership[2,3]
-leadership$age[2]
-leadership[,5]
-length(leadership$age)
-leadership[5,]
-leadership[c(2,4),5]
-
-names(leadership)
-names(leadership)[3]
-
-leadership[age&gt;40,]
-leadership[country==&quot;US&quot;,]
-leadership[country==&quot;US&quot;&amp;gender==&quot;M&quot;,]
-leadership[country==&quot;US&quot;|gender==&quot;M&quot;,]
-leadership[country!=&quot;US&quot;,]
-
-age^2
-sqrt(age)
-q1+q2
-
-leadership$x1 = q1 + q2
-leadership
-
-leadership$x1=rowMeans(leadership[,6:8])
-leadership
-
-leadership$agegroup[age&gt;=40&amp;age&lt;50]=&quot;40-50&quot;
-leadership$agegroup[age&lt;40]=&quot;&lt;40&quot;
-leadership$agegroup[age&gt;=50]=&quot;&gt;=50&quot;
-leadership
-
-names(leadership)[4]=&quot;性 别&quot;
-leadership
-
-leadership$q4[is.na(leadership$q4)]=0
-leadership
-
-mean(leadership$q4,na.rm = T)
-is.na(leadership$q4)
-
-dates=as.Date(&quot;01/05/1965&quot;,&quot;%m/%d/%Y&quot;)
-dates
-
-leadership[order(leadership$age),]
-
-leadership[order(leadership$age,decreasing = T),]
-</code></pre>
-<p>运行结果</p>
-<pre><code>&gt; manager=c(1,2,3,4,5)
-&gt; date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&quot;5/1/09&quot;)
-&gt; country=c(&quot;US&quot;,&quot;US&quot;,&quot;UK&quot;,&quot;UK&quot;,&quot;UK&quot;)
-&gt; gender=c(&quot;M&quot;,&quot;F&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;)
-&gt; age=c(32,45,25,39,99)
-&gt; q1=c(5,3,3,3,2)
-&gt; q2=c(4,5,5,3,2)
-&gt; q3=c(5,2,5,4,1)
-&gt; q4=c(5,5,5,NA,2)
-&gt; q5=c(5,5,2,NA,1)
-&gt; leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
-&gt; 
-&gt; head(leadership)
-   manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-3       3  10/1/08      UK      F  25  3  5  5  5  2
-4       4 10/12/08      UK      M  39  3  3  4 NA NA
-5       5   5/1/09      UK      F  99  2  2  1  2  1
-&gt; 
-&gt; leadership[2,3]
-[1] &quot;US&quot;
-&gt; leadership$age[2]
-[1] 45
-&gt; leadership[,5]
-[1] 32 45 25 39 99
-&gt; length(leadership$age)
-[1] 5
-&gt; leadership[5,]
-manager   date country gender age q1 q2 q3 q4 q5
-5       5 5/1/09      UK      F  99  2  2  1  2  1
-&gt; leadership[c(2,4),5]
-[1] 45 39
-&gt; names(leadership)
- [1] &quot;manager&quot; &quot;date&quot;    &quot;country&quot; &quot;gender&quot;  &quot;age&quot;     &quot;q1&quot;      &quot;q2&quot;      &quot;q3&quot;     
-[9] &quot;q4&quot;      &quot;q5&quot;  
-&gt; names(leadership)[3]
-[1] &quot;country&quot;
-&gt; leadership[age&gt;40,]
-  manager     date country gender age q1 q2 q3 q4 q5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-5       5   5/1/09      UK      F  99  2  2  1  2  1
-&gt; leadership[country==&quot;US&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-&gt; leadership[country==&quot;US&quot;&amp;gender==&quot;M&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-&gt; leadership[country==&quot;US&quot;|gender==&quot;M&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-4       4 10/12/08      UK      M  39  3  3  4 NA NA
-&gt; leadership[country!=&quot;US&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-3       3  10/1/08      UK      F  25  3  5  5  5  2
-4       4 10/12/08      UK      M  39  3  3  4 NA NA
-5       5   5/1/09      UK      F  99  2  2  1  2  1
-&gt; age^2
-[1] 1024 2025  625 1521 9801
-&gt; sqrt(age)
-[1] 5.656854 6.708204 5.000000 6.244998 9.949874
-&gt; q1+q2
-[1] 9 8 8 6 4
-&gt; x1 = q1 + q2
-&gt; leadership
-  manager     date country gender age q1 q2 q3 q4 q5 x1
-1       1 10/24/08      US      M  32  5  4  5  5  5  9
-2       2 10/28/08      US      F  45  3  5  2  5  5  8
-3       3  10/1/08      UK      F  25  3  5  5  5  2  8
-4       4 10/12/08      UK      M  39  3  3  4 NA NA  6
-5       5   5/1/09      UK      F  99  2  2  1  2  1  4
-&gt; leadership$x1=rowMeans(leadership[,6:8])
-&gt; leadership
-  manager     date country gender age q1 q2 q3 q4 q5       x1
-1       1 10/24/08      US      M  32  5  4  5  5  5 4.666667
-2       2 10/28/08      US      F  45  3  5  2  5  5 3.333333
-3       3  10/1/08      UK      F  25  3  5  5  5  2 4.333333
-4       4 10/12/08      UK      M  39  3  3  4 NA NA 3.333333
-5       5   5/1/09      UK      F  99  2  2  1  2  1 1.666667
-&gt; leadership$agegroup[age&gt;=40&amp;age&lt;50]=&quot;40-50&quot;
-&gt; leadership$agegroup[age&lt;40]=&quot;&lt;40&quot;
-&gt; leadership$agegroup[age&gt;50]=&quot;&gt;50&quot;
-&gt; leadership
-  manager     date country gender age q1 q2 q3 q4 q5       x1 agegroup
-1       1 10/24/08      US      M  32  5  4  5  5  5 4.666667      &lt;40
-2       2 10/28/08      US      F  45  3  5  2  5  5 3.333333    40-50
-3       3  10/1/08      UK      F  25  3  5  5  5  2 4.333333      &lt;40
-4       4 10/12/08      UK      M  39  3  3  4 NA NA 3.333333      &lt;40
-5       5   5/1/09      UK      F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; names(leadership)[4]=&quot;性 别&quot;
-&gt; leadership
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-4       4 10/12/08      UK     M  39  3  3  4 NA NA 3.333333      &lt;40
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; leadership
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; mean(leadership$q4,na.rm = T)
-[1] 3.4
-&gt; is.na(leadership$q4)
-[1] FALSE FALSE FALSE FALSE FALSE
-&gt; dates=as.Date(&quot;01/05/1965&quot;,&quot;%m/%d/%Y&quot;)
-&gt; dates
-[1] &quot;1965-01-05&quot;
-&gt; leadership[order(leadership$age),]
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; 
-&gt; 
-&gt; leadership[order(leadership$age,decreasing = T),]
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-</code></pre>
-<p>代码</p>
-<pre><code>install.packages(&quot;openxlsx&quot;)
-library(openxlsx)
-data=read.xlsx(&quot;C:/Users/86150/Desktop/survival data.xlsx&quot;, sheet=1)
-
-data2=data[data$初诊年龄&lt;60&amp;data$T分期==1,]
-data$EAIgA[data$EAIgA==&quot;阴&quot;|data$EAIgA==&quot;阴性&quot;|data$EAIgA==&quot;-&quot;|data$EAIgA==&quot;&quot;]=0
-
-data$EAIgA=as.numeric(data$EAIgA)
-
-mean(data2$EAIgA,na.rm = T)
-
-table(data2$性别,data2$吸烟与否)
-
-plot(data2$LDH,data2$Overall.survival.time)
-
-data2$kk[data2$LDH&gt;200]=&quot;High&quot;
-data2$kk[data2$LDH&lt;=200]=&quot;Low&quot;
-
-data2$k=ifelse(data2$EAIgA&lt;=200,&quot;low&quot;,&quot;high&quot;)
-
-for(i in 1:100){
-  if(data2$LDH[i]&lt;200) data2$kk[i]=&quot;low&quot; else data2$kk[i]=&quot;high&quot;
-}
-
-junshu=mean(data2$LDH)
-biaozhuncha=sd(data$LDH)
-junshu
-biaozhuncha
-round(junshu,2)
-round(biaozhuncha,2)
-junshu
-biaozhuncha
-
-sprintf(&quot;%.2f&quot;,junshu)
-sprintf(&quot;%.2f&quot;,biaozhuncha)
-paste0(sprintf(&quot;%.2f&quot;,junshu),&quot;±&quot;,sprintf(&quot;%.2f&quot;,biaozhuncha))
-
-
-
-mean_Z=function(var){
-junshu=mean(var)
-biaozhuncha=sd(var)
-paste0(sprintf(&quot;%.2f&quot;,junshu),&quot;±&quot;,sprintf(&quot;%.2f&quot;,biaozhuncha))
-}
-mean_Z(data2$LDH)
-mean_Z(data2$EALgA)
-mean_Z(data2$初诊年龄)
-
-#自编一个输入两个分类变量的名字就可以返回四格表的函数
-
-Ptable=function(var1,var2){
-a=table(var1,var2)
-b=chisq.test(a)
-c=b$statistic
-d=b$p.value
-return(list(a,b,c,d))
-}
-Ptable(data$性别,data$吸烟与否)
-</code></pre>
 ]]></content>
     </entry>
 </feed>
