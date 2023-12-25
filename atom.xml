@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-24T14:31:06.628Z</updated>
+    <updated>2023-12-25T09:05:31.345Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -23,8 +23,13 @@
 </ol>
 <h1 id="第二章-细胞的基本功能">第二章 细胞的基本功能</h1>
 <ol>
-<li>（2020级期末、2017级期末）钠泵的活动有何生理意义？</li>
+<li>（2017级、2020级期末）钠泵的活动有何生理意义？</li>
 <li>（2019级期末）简述跨膜物质转运的方式。</li>
+<li>（2015级期末）参与神经-肌肉接头传递和肌肉兴奋-收缩耦连过程中的重要阳离子是什么？并简述其在上述两个过程中的作用。</li>
+<li>（2013级期末）阈电位是什么，和兴奋有什么关系？</li>
+<li>（2008级期末、2009级期末、2012级期末）何谓静息电位？静息电位的形成机制？</li>
+<li>（2009级期末）试述神经-肌接头处兴奋的传递过程。</li>
+<li>（2008年八年制期末）请简述局部兴奋的特点。</li>
 </ol>
 <h1 id="第三章-血液">第三章 血液</h1>
 <ol>
@@ -32,6 +37,11 @@
 <li>（2019级期末）某人的红细胞与B型血的血清发生凝集，而其血清和B型血的红细胞不发生凝集，分析此人的血型。</li>
 <li>（2018级期末）血浆渗透压的组成和生理意义。</li>
 <li>（2017级期末）简述延缓血液凝固有哪些方法？</li>
+<li>（2014级期末）描述血红蛋白氧解离曲线并阐述其意义。</li>
+<li>（2012级期末）交叉配血是什么？为什么要这样做？</li>
+<li>（2009级补考）简述输血的原则。</li>
+<li>（2008级八年制期末）生理性止血的过程。</li>
+<li>（2008级期末）简述红细胞有哪些生理特性？</li>
 </ol>
 <h1 id="第四章-血液循环">第四章 血液循环</h1>
 <ol>
@@ -39,33 +49,65 @@
 <li>（2020级期末）高血压导致的心衰患者，为什么采取端坐体位可以缓解呼吸困难？</li>
 <li>（2020级期末）何为波尔效应？简述其产生机制和生理意义。</li>
 <li>（2018级期末）房室延搁的概念及其对心脏正常功能的意义。</li>
-<li>（2018级期末）简述CO中毒对血液携带<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>O</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">O_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>能力的影响及呼吸运动的变化，并解释为什么？</li>
+<li>（2015级期末）何为Starling机制？其主要生理意义又是什么？</li>
+<li>（2013级、2014级期末）影响静脉回流的因素。</li>
+<li>（2012级期末）夹闭家兔一侧颈总动脉，动脉血压有何变化，简述其机制。</li>
+<li>（2010级补考）动物实验中，切断家兔颈部双侧迷走神经后，呼吸有何变化？为什么？</li>
+<li>（2010级期末）与骨骼肌相比，简述心肌的生理特征。</li>
+<li>（2008级八年制补考、2009级补考、2009级医工期末、2010级康复护理）动脉血压的形成因素。</li>
+<li>（2008级期末）简述静息电位的</li>
 </ol>
 <h1 id="第五章-呼吸">第五章 呼吸</h1>
 <ol>
-<li>（2019级期末）试述肺表面活性物质的来源、成分和生理机制。</li>
+<li>（2012级期末、2019级期末）试述肺表面活性物质的来源、成分和生理机制。</li>
+<li>（2018级期末）简述CO中毒对血液携带<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>O</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">O_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>能力的影响及呼吸运动的变化，并解释为什么？</li>
 <li>（2017级期末）患者男性，23岁。左胸刀刺伤1小时来院，呼吸急促、唇发绀，胸部广泛皮下气肿，血压90/60mmHg，心率110次/分，左胸叩诊呈鼓音，左肺呼吸音消失、气管右偏，诊断为气胸。请从生理学角度简要解释该患者出现上述症状体征的原因。</li>
-<li></li>
+<li>（2016级期末）妊娠27周（正常妊娠37~42周）的孕妇分娩的婴儿出现呼吸困难及缺氧，医生对婴儿气管插管后给予气管内喷入以下哪种药物可有效缓解上述症状？并分析其原因。<br>
+A、肾上腺素<br>
+B、去甲肾上腺素<br>
+C、乙酰胆碱<br>
+D、表面活性物质<br>
+E、氨茶碱</li>
+<li>（2013级期末）某些情况下会导致机体二氧化碳潴留和低氧，这时不宜用纯氧来改善呼吸，为什么？</li>
+<li>（2008年八年制补考）为什么肺活量能用于评价肺功能？</li>
+<li>（2008年八年制期末）请简述<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>O</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">O_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>和<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>C</mi><msub><mi>O</mi><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">CO_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>运输的相互影响。</li>
 </ol>
 <h1 id="第六章-消化与吸收">第六章 消化与吸收</h1>
 <ol>
 <li>（2020级期末）简述消化道平滑肌的慢波、动作电位和肌肉收缩之间的关系。</li>
 <li>（2019级期末）请简述食物进入胃前，对胃液分泌的影响及机制。</li>
 <li>（2017级期末）某患者因上腹痛就诊，经过检查诊断为消化性溃疡，并开始服用“质子泵抑制剂”进行治疗，请简述其治疗溃疡的生理基础。</li>
-<li></li>
+<li>（2008级期末、2016级期末）患者，男，45岁，BMI：27.88（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mi>g</mi><mi mathvariant="normal">/</mi><msup><mi>m</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">kg/m^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">/</span><span class="mord"><span class="mord mathdefault">m</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span>），进食油腻食物及饮酒后，于2016年2月15日早餐出现腹部疼痛，疼痛为胀痛，为持续性，部位主要集中在中上腹及左侧腹部，进食后胀痛加重。肛门排便排气减少。既往有饮酒史约10余年，每天约白酒半斤，无药物依赖史，否认药物及食物过敏史，实验室检查：血淀粉酶：60U/L，尿淀粉酶：1597U/L。影像学检查：上腹部CT：胰腺饱满，临近胰腺肠系膜水肿。入院诊断：急性胰腺炎，给以禁食、胃肠解压、补液、抑酶、抑酸、抗感染治疗缓解出院。请简述正常情况下胰腺避免自身消化的机制？并试述该患者胰腺组织自身消化的原因。</li>
+<li>（2014级期末）胃肠道中有哪些抑制胃酸分泌因素？</li>
+<li>（2013级期末）胰液的成分和作用？</li>
+<li>（2012级期末）胃排空是什么？影响胃排空的机制？</li>
+<li>（2009级期末）胃液中盐酸有哪些生理作用？</li>
+</ol>
+<h1 id="第七章-能量代谢与体温">第七章 能量代谢与体温</h1>
+<ol>
+<li>（2010级补考）什么是基础代谢率？测定时有哪些要求？</li>
 </ol>
 <h1 id="第八章-尿的生成和排除">第八章 尿的生成和排除</h1>
 <ol>
 <li>（2020级期末）皮质肾单位和近髓肾单位在结构和功能上各有何特点？</li>
 <li>（2019级期末）肾小管各个阶段对水和钠的重吸收特点是什么？</li>
-<li></li>
+<li>（2015级期末）进球小体包括哪三类细胞，其分别有何生理意义？</li>
+<li>（2015级期末）某男性患者近半年食欲增加，体重减轻，易口渴而多饮、多尿。入院检查：15.05±4.15 mmol/L（正常值：3.9~5.6 mmol/L）。根据以上描述，请解释患者多尿的原因。</li>
+<li>（2014级期末）肾髓质间隙高渗梯度的形成原理。</li>
+<li>（2011级期末）机体运动后大量出汗，请简述尿量的变化，并解释原因。</li>
+<li>（2010级期末）描述肾血流量的特点。</li>
+<li>（2009级补考）家兔实验，注射20%葡萄糖溶液5ml，尿量有何改变？为什么？</li>
+<li>（2008年八年制补考、2009级期末）简述影响肾小球滤过的因素。</li>
+<li>（2008年八年制期末）原尿和血浆的成分区别。</li>
 </ol>
 <h1 id="第九章-感觉器官的功能">第九章 感觉器官的功能</h1>
 <ol>
 <li>（2021级期末）在光线明亮的教室，一位同学课间休息时观察墙上的一个小飞虫，请问此时是视网膜上哪种感光换能系统在发挥作用？简述其功能特征。</li>
 <li>（2020级期末）为什么听自己说话的录音，感觉不像自己的声音？</li>
 <li>（2019级期末）简述视网膜上晚光觉系统和昼光觉系统的主要细胞组成及特点。</li>
-<li>（2018级期末）内脏痛的特点？</li>
+<li>（2009级补考、2010级补考、2018级期末）内脏痛的特点？</li>
+<li>（2008级、2014级期末）人眼视近处的物体的调节机制。</li>
+<li>（2009级期末）何为简化眼？如何利用简化眼判断物体在视网膜上的成像？</li>
 </ol>
 <h1 id="第十章-神经系统的功能">第十章 神经系统的功能</h1>
 <ol>
@@ -74,13 +116,26 @@
 <li>（2021级期末）简述人的记忆过程。</li>
 <li>（2021级期末）简述长时程增强。</li>
 <li>（2017级期末）什么是感受器的适应现象？简述快适应感受器和慢适应感受器各自的生理意义？</li>
+<li>（2015级期末）简述化学性突触有哪些主要特征。</li>
+<li>（2014级期末）简述经典化学性突触的传递过程。</li>
+<li>（2011级期末）简述神经元间突触传递的特征。</li>
+<li>（2011级期末）什么是脊休克？从它的形成和恢复说明了什么问题？</li>
+<li>（2010级期末、2010级补考）简述兴奋在神经纤维上传导的机制。</li>
+<li>（2010级期末）不同睡眠时相的特点和生理意义。</li>
+<li>（2008级期末）简述丘脑的两类感觉投射系统的特点。</li>
 </ol>
 <h1 id="第十一章-内分泌">第十一章 内分泌</h1>
 <ol>
-<li>（2021级期末）何谓雌激素分泌的双重细胞学说？</li>
+<li>（2010级补考、2021级期末）何谓雌激素分泌的双重细胞学说？</li>
 <li>（2021级期末）激素的一般生理作用有哪些？</li>
 <li>（2021级期末）简述生长激素的分泌调节。</li>
-<li>（2019级期末）请简述甲状腺激素的合成过程。</li>
+<li>（2013级期末、2019级期末）请简述甲状腺激素的合成过程，及硫氧嘧啶类药物可用于治疗甲状腺功能亢进的原理？</li>
+<li>（2016级期末）参与机体血糖水平调节的激素主要有哪些？简述各自对血糖调节的作用。</li>
+<li>（2011级期末）请简述激素调节的方式？</li>
+<li>（2009级补考）激素和受体结合具有哪些特性？</li>
+<li>（2009级期末）简述促甲状腺激素（TSH）的生理作用。</li>
+<li>（2008年八年制补考）简述地方性甲状腺肿发病机制。</li>
+<li>（2008年八年制期末）雌激素的正反馈反应。</li>
 </ol>
 ]]></content>
     </entry>
@@ -245,8 +300,11 @@
         </link>
         <updated>2023-12-14T04:55:39.000Z</updated>
         <content type="html"><![CDATA[<p>为了保证期末复习稳步推进，在这里更新每天的学习进度。</p>
+<h1 id="2023年12月25日">2023年12月25日</h1>
+<p>1、生理复习准备工作。</p>
 <h1 id="2023年12月24日">2023年12月24日</h1>
-<p>1、生化大题复习，启动！（完成了前两章的整理）</p>
+<p>1、生化大题复习，启动！（完成了前两章的整理）<br>
+2、生理复习</p>
 <h1 id="2023年12月16日~2023年12月23日">2023年12月16日~2023年12月23日</h1>
 <p>1、圆满完成医学统计学复习及测试。<br>
 2、完成英语We learn及批改网最后一次作文。<br>
