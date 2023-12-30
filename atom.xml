@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-25T09:14:49.193Z</updated>
+    <updated>2023-12-30T10:38:23.745Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[🌸的2023小结]]></title>
+        <id>https://maomaohead.github.io/post/de-2023-xiao-jie/</id>
+        <link href="https://maomaohead.github.io/post/de-2023-xiao-jie/">
+        </link>
+        <updated>2023-12-30T09:49:07.000Z</updated>
+        <content type="html"><![CDATA[<p>如果让我来总结2023年，我可能会用一个很朴素的词来概括——“富有挑战”。何谓挑战？</p>
+<p>——是身体方面的挑战。疫情的放开、朋友的中招总让我猝不及防，但每次我竟都能奇迹般地和阳性擦肩而过。体测的竞争仍然激烈，尽管身体素质还不能和其他人比较，但我实现了大学以来的最好成绩，这何尝不是我值得欣慰和骄傲的事情?</p>
+<p>——是学业方面的挑战。作为医学生，身处内卷的漩涡里，学业压力之大不言而喻。七月考试的失利让我无比难过，于是乎奋起直追。生理绿皮的解析、生化的双题库、医统的思维导图……每一笔字迹、每一张图片、每一个文档都记录着汗水和努力。在科研文献导读课程，我高质量完成了三次Pre和两次次提问的准备工作，不负组长之责。期末考将至，无论结果如何，我都可以对自己说——我问心无愧。</p>
+<figure data-type="image" tabindex="1"><img src="https://maomaohead.github.io/post-images/1703931469645.jpg" alt="" loading="lazy"></figure>
+<p>——是人际关系的挑战。天下熙熙，皆为利来；天下攘攘，皆为利往。我们不能以此来概括现实存在的所有关系，但仍需要对此有所提防。过度信任、过度依赖以利益为基建立起来的关系，则必死无疑。但是可幸，仍有友谊能跨过利益的鸿沟，挺住时间的冲刷，历久弥坚，历久弥新。</p>
+<figure data-type="image" tabindex="2"><img src="https://maomaohead.github.io/post-images/1703931451467.jpg" alt="" loading="lazy"></figure>
+<p>如果讨趣一点的话，“挑战杯”能不能也算挑战？其实也算，这是我第一次参加大型志愿服务活动。而在年底，我也参加了广马的志愿。这两次志愿的的确确拓宽了我的见识，很令人难忘。</p>
+<p>总的来说呢，2023年对我来说是极不平凡的一年。 <s>（这话是不是年年都用来着）</s> 这一年中，我见证花开花谢、人聚人散，经历重重困难、千锤百炼，认识了人性的复杂和多变；但是也看到了多年友谊的延续和稳固，看到了船舵斩浪而行、劲松任尔何风，也看到了暴雨后的彩虹、野火燎后的生机。</p>
+<p>至于2024年的希望呢……</p>
+<p><s>我不想再看到什么暴雨后的彩虹了，我希望没有暴雨！</s></p>
+<p>以上纯属瞎扯。没有暴雨的愿望过于美好、过于不切实际，不可能实现。许个切合实际一点的愿望吧——</p>
+<p>愿身体健康，免遭疾患。<br>
+愿绩点反弹，不再退步。<br>
+愿友谊岿然，历久弥坚。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《生理学》学海简答题整理]]></title>
         <id>https://maomaohead.github.io/post/lesslesssheng-li-xue-greatergreater-xue-hai-jian-da-ti-zheng-li/</id>
@@ -557,21 +579,6 @@ LazyData: true
 <h3 id="li-hua">Li Hua</h3>
 <h1 id="批改网批改情况">批改网批改情况</h1>
 <figure data-type="image" tabindex="1"><img src="https://maomaohead.github.io/post-images/1700545452315.jpg" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write an essay comparing and contrasting two consecutive periods of life]]></title>
-        <id>https://maomaohead.github.io/post/write-an-essay-comparing-and-contrasting-two-consecutive-periods-of-life/</id>
-        <link href="https://maomaohead.github.io/post/write-an-essay-comparing-and-contrasting-two-consecutive-periods-of-life/">
-        </link>
-        <updated>2023-10-23T14:01:04.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="作文要求">作文要求</h1>
-<p>Write an essay of no less than 200 words to state your view. You are supposed to give a title to your essay and support your argument with specific evidence.</p>
-<h1 id="我的作文">我的作文</h1>
-<p>Adolescence and adulthood are two closely related but terribly different periods of human development. Legally, adolescence typically refers to the period of aging between 10 and 18, while adulthood is known as the state of aging more than 18. Nevertheless, there are more differences between the two periods than ages.</p>
-<p>To start with, the body of one adult differs from that of one adolescent. The body becomes higher and stronger, accompanied by the maturity of secondary sex characters. What's more, it cannot be ignored that adults are more independent in comparison with adolescents. When one shifts from adolescence to adulthood, he gains more ability to live, think and make decisions on his own, and gradually becomes less and less independent on his parents. He will try to cope with the problem with nothing but his effort, rather than seeking assistance from others. Last but not least, taking on more responsibilities is the most significant matter for an adult, while adolescents sometimes still have the right to shirk some certain obligations. For one thing, adults are expected to make contributions to family, society and the country, from which adolescents are free. For another thing, adolescents often are given a lighter punishment than adults when they make mistakes.</p>
-<p>In a nutshell, much difference exists between adolescence and adulthood. However, it is worth emphasizing that the two periods of human life are closely related. We need to cherish the current stage of our life, whether we are adults or just adolescents.<br>
-（92分）</p>
 ]]></content>
     </entry>
 </feed>
