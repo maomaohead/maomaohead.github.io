@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-31T15:46:32.875Z</updated>
+    <updated>2023-12-31T15:48:43.540Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
     <entry>
-        <title type="html"><![CDATA[新年愿望盒子]]></title>
+        <title type="html"><![CDATA[2024新年愿望盒子]]></title>
         <id>https://maomaohead.github.io/post/xin-nian-yuan-wang-he-zi/</id>
         <link href="https://maomaohead.github.io/post/xin-nian-yuan-wang-he-zi/">
         </link>
