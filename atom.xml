@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-30T10:38:23.745Z</updated>
+    <updated>2023-12-31T15:45:42.494Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[新年愿望盒子]]></title>
+        <id>https://maomaohead.github.io/post/xin-nian-yuan-wang-he-zi/</id>
+        <link href="https://maomaohead.github.io/post/xin-nian-yuan-wang-he-zi/">
+        </link>
+        <updated>2023-12-31T15:42:36.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="新年快乐">新年快乐！！！</h1>
+<p>想收集一下大家的愿望，在下面评论区评论就可以啦！<br>
+（当然如果寒假有空的话我会一个一个回手写信） <s>应该不会放鸽子叭</s><br>
+评论编辑栏的那三个信息都是可填可不填的喔，并且我也看不到是谁发的评论，所以想匿放心匿！</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🌸的2023小结]]></title>
         <id>https://maomaohead.github.io/post/de-2023-xiao-jie/</id>
@@ -560,25 +572,6 @@ LazyData: true
 <p><strong>A+咕</strong><br>
 <strong>花开富贵</strong><br>
 <strong>CH₃CH₂CH₂CH₃</strong></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write a letter to a foreign friend to help him/her understand how your culture uses body language.]]></title>
-        <id>https://maomaohead.github.io/post/write-an-essay-in-which-you-analyze-one-or-two-of-your-personal-relationship/</id>
-        <link href="https://maomaohead.github.io/post/write-an-essay-in-which-you-analyze-one-or-two-of-your-personal-relationship/">
-        </link>
-        <updated>2023-11-21T05:39:21.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="作文要求">作文要求</h1>
-<p>Write an essay in which you analyze one or two of your personal relationship.</p>
-<p>Write a letter of no less than 200 words to state your view and support your letter with specific evidence.</p>
-<h1 id="我的作文">我的作文</h1>
-<h3 id="dear-tom">Dear Tom,</h3>
-<p>How's it going? I am more than glad to share something about how body language is used in my culture with you. And I do hope what I write below will enhance your understanding of me and my culture.</p>
-<p>As the old saying goes, &quot;Action speaks louder than words&quot;. The same goes for the body language, though its original meaning doesn't point to it. It goes without saying that different cultures display some commonalities but also exhibit significant differences in almost every aspect, including body languages. To begin with, similarities exist in how they use body languages between your culture and my culture. Take smiling as an example, which conveys honesty and friendliness in both my culture and yours. Whereas, there are body languages which are unique in my culture besides the common ones. Manifesting in the usage of body languages, one of the most distinguishing characteristics of my culture is that people in my culture prefer to be veiled. Among various kinds of body language, touching is seen as one kind of negative body language, which may be used to express friendliness in your country. Touching one's temples is one good example, having the meaning that there is something wrong with the touched person's mind, which may be regarded as a positive action praising the cleverness of the person who is touched in your country. In addition to this, we also keep a proper distance with each other and avoid touching in a bit to show politeness and respect, except the one who you're close with. What's more, I'd like to stress that the way we use body languages is shifting day by day, especially after reform and opening up. A mounting number of usages of body language from all around the world are accepted by Chinese people as we integrate into the world. At the same time, the native usages keep updating with the development of the era. How my culture uses body languages should not be viewed in a fixed way.</p>
-<p>In a nutshell, there are similarities and differences between your culture and mine when it comes to the usage of body language. But for all that, it pays to get acquainted with them, so that we can understand each other better. So I'm looking forward to sharing more about your culture and hearing about your experiences as well. Best wishes!</p>
-<h3 id="li-hua">Li Hua</h3>
-<h1 id="批改网批改情况">批改网批改情况</h1>
-<figure data-type="image" tabindex="1"><img src="https://maomaohead.github.io/post-images/1700545452315.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
