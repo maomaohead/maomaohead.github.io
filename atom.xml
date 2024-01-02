@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2024-01-02T03:36:46.094Z</updated>
+    <updated>2024-01-02T06:35:01.823Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
@@ -26,6 +26,22 @@
 <p>⑤ 作用方式不同：miRNA从转录后水平和翻译水平发挥作用，既可抑制靶标mRNA的翻译，也可导致其降解；siRNA只能从转录后水平发挥作用，只能导致靶标mRNA的降解。</p>
 <p>⑥ miRNA主要在发育过程中起作用，调节内源性基因的表达，而siRNA则不参与生物的生长调控，其为RNAi的产物，原始作用是抑制转座子的活性和病毒的感染。</p>
 <h1 id="第三章-酶与酶促反应">第三章 酶与酶促反应</h1>
+<h3 id="1-2020级期末患者女性35岁因与丈夫争吵服下敌敌畏约80ml出现头晕-恶心-呕吐-视物模糊等被家人送往当地医院诊断为急性中毒请根据所学的关于酶的知识回答">1、（2020级期末）患者，女性，35岁，因与丈夫争吵服下敌敌畏约80ml，出现头晕、恶心、呕吐、视物模糊等，被家人送往当地医院诊断为急性中毒，请根据所学的关于酶的知识回答：</h3>
+<h3 id="1该患者的中毒机制是什么">（1）该患者的中毒机制是什么？</h3>
+<h3 id="2这个患者需要进行怎么样的处理所采取的药物的解毒机制是什么">（2）这个患者需要进行怎么样的处理，所采取的药物的解毒机制是什么？</h3>
+<h3 id="3酶除了这种抑制方式之外还有哪几种方式任举一种说明其作用机制">（3）酶除了这种抑制方式之外，还有哪几种方式？任举一种说明其作用机制。</h3>
+<p>（1）敌敌畏属有机磷农药，是胆碱酯酶的不可逆性抑制剂，可特异性地与胆碱酯酶活性中心的丝氨酸残基共价结合，使胆碱酯酶失活，导致乙酰胆碱堆积，进而使胆碱能神经持续兴奋，从而使病人出现头晕、恶心、呕吐、视物模糊等急性中毒症状。</p>
+<p>（2）可予乙酰胆碱拮抗剂阿托品及胆碱酯酶复活剂解磷定治疗。解毒机制如下：</p>
+<ol>
+<li>阿托品可与乙酰胆碱竞争突触后膜上的M受体，从而抑制乙酰胆碱发挥作用。</li>
+<li>解磷定可以和磷酸化的乙酰胆碱酶反应，生成磷酸化解磷定及游离羟基的乙酰胆碱酶，从而恢复乙酰胆碱酶的活性，进而缓解中毒症状。</li>
+</ol>
+<p>（3）除了不可逆性抑制之外，仍有可逆性抑制，其中包括竞争性抑制、非竞争性抑制和反竞争性抑制。</p>
+<ol>
+<li>竞争性抑制：抑制剂和酶的底物在结构上相似，可与底物竞争结合酶的活性中心，从而阻碍酶与底物形成中间产物。</li>
+<li>非竞争性抑制：抑制剂与酶活性中心外的结合位点相结合，不影响酶与底物的结合，底物也不影响酶与抑制剂的结合。底物和抑制剂之间无竞争关系。但酶-底物-抑制剂复合物(ESI)不能进一步释放出产物。</li>
+<li>反竞争性抑制：抑制剂仅与酶－底物复合物结合，使中间产物ES的量下降。没有底物结合时，游离的酶并不能与抑制剂结合，当底物与酶结合后，酶才能与抑制剂结合。</li>
+</ol>
 <h1 id="第四章-聚糖的结构与功能">第四章 聚糖的结构与功能</h1>
 <h1 id="第五章-糖代谢">第五章 糖代谢</h1>
 <h3 id="1-2021级期末试述胰高血糖素升高血糖的机制任举1例详述其调控的信号通路">1、（2021级期末）试述胰高血糖素升高血糖的机制，任举1例详述其调控的信号通路。</h3>
@@ -36,7 +52,12 @@
 <p>④ 激活脂肪组织内激素敏感性脂肪酶，促进脂肪分解供能，以节约血糖。</p>
 <p>（2）信号通路：</p>
 <p>胰高血糖素作用于肝组织细胞上的G蛋白耦连受体后，促使G蛋白与GDP解离，从而激活G蛋白。活化的G蛋白激活腺苷酸环化酶（AC），使cAMP生成增加。cAMP能激活蛋白激酶A（PKA），催化无活性的磷酸化酶b激酶磷酸化为有活性的磷酸化酶b激酶。后者催化无活性的磷酸化酶b磷酸化为磷酸化酶，从而促进糖原的分解，提高血糖水平。</p>
+<h3 id="2-2020级期末什么是磷酸戊糖途径试述其基团转移的重要性-并说明高糖饮食或饥饿后进食后6-磷酸葡萄糖脱氢酶活性增高的意义">2、（2020级期末）什么是磷酸戊糖途径？试述其基团转移的重要性。并说明高糖饮食或饥饿后进食后，6-磷酸葡萄糖脱氢酶活性增高的意义。</h3>
+<p>（1）磷酸戊糖途径是指糖酵解的中间产物G-6-P通过氧化、基团转移两个阶段生成F-6-P和3-磷酸甘油醛，从而返回糖酵解的代谢旁路。</p>
+<p>（2）基团转移的重要性：在氧化阶段生成的NADPH和磷酸戊糖可以作为体内诸多合成代谢的原料，但由于细胞对于NADPH的需求大于对磷酸戊糖的需求，多余的磷酸戊糖会通过基团转移重新返回糖酵解途径再次利用，从而避免了磷酸戊糖的积累。</p>
+<p>（3）6-磷酸葡萄糖脱氢酶是</p>
 <h1 id="第六章-生物氧化">第六章 生物氧化</h1>
+<h3 id="1-2020级期末请叙述化学渗透假说的要点">1、（2020级期末）请叙述化学渗透假说的要点。</h3>
 <h1 id="第七章-脂质代谢">第七章 脂质代谢</h1>
 <h1 id="第八章-蛋白质消化吸收和氨基酸代谢">第八章 蛋白质消化吸收和氨基酸代谢</h1>
 <h3 id="1-2021级期末肝昏迷又称肝性脑病是由于严重的肝脏功能障碍引起的以代谢紊乱为基础的中枢神经功能失调的综合病症其主要临床表现是意识障碍-行为失常和昏迷-试从氨代谢的角度分析血氨增高导致肝昏迷的可能机制">1、（2021级期末）肝昏迷又称肝性脑病，是由于严重的肝脏功能障碍引起的以代谢紊乱为基础的中枢神经功能失调的综合病症，其主要临床表现是意识障碍、行为失常和昏迷。试从氨代谢的角度，分析血氨增高导致肝昏迷的可能机制。</h3>
@@ -54,7 +75,33 @@
 <h1 id="第十四章-rna的合成">第十四章 RNA的合成</h1>
 <h1 id="第十五章-蛋白质的合成">第十五章 蛋白质的合成</h1>
 <h3 id="1-2021级期末请简述多肽链的生物合成过程">1、（2021级期末）请简述多肽链的生物合成过程。</h3>
+<p>（1）原核生物蛋白质生物合成过程分为起始、延长和终止三个阶段。</p>
+<p>① 起始阶段：主要是形成起始复合物。</p>
+<ol>
+<li>在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>I</mi><mi>F</mi></mrow><annotation encoding="application/x-tex">IF</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span></span>的帮助下，核糖体大小亚基分离，为结合<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi><mi>R</mi><mi>N</mi><mi>A</mi></mrow><annotation encoding="application/x-tex">mRNA</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">m</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord mathdefault">A</span></span></span></span>和<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mi>M</mi><mi>e</mi><mi>t</mi><mo>−</mo><mi>t</mi><mi>R</mi><mi>N</mi><msup><mi>A</mi><mrow><mi>f</mi><mi>M</mi><mi>e</mi><mi>t</mi></mrow></msup></mrow><annotation encoding="application/x-tex">fMet-tRNA^{fMet}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault">e</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8491079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">t</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord"><span class="mord mathdefault">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">t</span></span></span></span></span></span></span></span></span></span></span></span>做好准备。</li>
+<li>mRNA在小亚基定位结合：16S rRNA通过碱基互补配对识别S-D序列，并将核糖体小亚基精准定位于mRNA的核糖体结合位点上。</li>
+<li>起始酰胺-tRNA的结合：<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mi>M</mi><mi>e</mi><mi>t</mi><mo>−</mo><mi>t</mi><mi>R</mi><mi>N</mi><msup><mi>A</mi><mrow><mi>f</mi><mi>M</mi><mi>e</mi><mi>t</mi></mrow></msup></mrow><annotation encoding="application/x-tex">fMet-tRNA^{fMet}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord mathdefault">e</span><span class="mord mathdefault">t</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.8491079999999999em;vertical-align:0em;"></span><span class="mord mathdefault">t</span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord"><span class="mord mathdefault">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.10764em;">f</span><span class="mord mathdefault mtight" style="margin-right:0.10903em;">M</span><span class="mord mathdefault mtight">e</span><span class="mord mathdefault mtight">t</span></span></span></span></span></span></span></span></span></span></span></span>与结合了GTP的IF2一起识别并结合对应小亚基P位对应的mRNA的起始AUG处。此时A位被IF1占据，不能结合氨酰-tRNA。</li>
+<li>翻译起始复合物形成。与IF2结合的GTP水解，3种IF释放，核糖体大小亚基结合，形成翻译起始复合物。</li>
+</ol>
+<p>② 延长阶段：是肽链在核糖体上循环进行的进位、成肽、转位的过程。</p>
+<ol>
+<li>进位：延长因子EF-Tu与氨酰-tRNA、GTP形成三元复合物，后者按照mRNA上的密码子进入核糖体A位。</li>
+<li>成肽：在转肽酶作用下，P位上的肽酰-tRNA与A位的氨酰-tRNA形成肽键，P位上是卸载的tRNA。</li>
+<li>转位：核糖体向下游移动一个密码子的距离，导致成肽时A位的肽酰-tRNA移至P位，成肽时P位的空载tRNA进入E位，A位则空出并对应下一个密码子，准备下一轮的循环。</li>
+</ol>
+<p>③ 终止阶段：核糖体A位出现终止密码子，肽链合成停止，释放因子识别终止密码子而进入A位，并触发核糖体构象的改变，转肽酶活性转变为酯酶活性，水解肽酰-tRNA，释放肽链，并促使mRNA解离。</p>
+<p>（2）真核生物蛋白质的生物合成过程。</p>
+<p>① 起始阶段：</p>
+<ol>
+<li>43S前起始复合物的形成：多种起始因子与核糖体小亚基结合，形成43S的前起始复合物。其中eIF1A和eIF3与原核起始因子IF1和IF3功能类似。</li>
+<li>mRNA与核糖体小亚基结合：在eIF4F复合物的介导下，mRNA与43S前起始复合物结合，形成48S起始复合物。</li>
+<li>核糖体大亚基的结合：48S起始复合物扫描并定位起始密码子，随后大亚基加入，起始因子释放，翻译起始复合物由此形成。</li>
+</ol>
+<p>②延长阶段：与原核生物基本相同，但亦有差异，如所需延长因子不同。此外，在真核生物，一个新的氨酰-tRNA进入A位后会产生别构效应，致使空载tRNA从E位排出。</p>
+<p>③终止阶段：与原核生物基本相同，但原核生物有三种RF，而真核生物只有一种eRF。</p>
+<h3 id="2-2020级期末-蛋白质合成过程中的模板是什么有何特点原核生物-真核生物的模板在功能上有何差异">2、（2020级期末） 蛋白质合成过程中的模板是什么？有何特点？原核生物、真核生物的模板在功能上有何差异？</h3>
 <h1 id="第十六章-基因表达调控">第十六章 基因表达调控</h1>
+<h3 id="1-2020级期末利用两种培养基培养大肠杆菌二者的差异为碳源不同培养基a仅含葡萄糖培养基b含等量葡萄糖乳糖a和b的碳源总量相同大肠杆菌在这两种培养基种的生长情况如图请解释该差异产生的生化机制">1、（2020级期末）利用两种培养基培养大肠杆菌，二者的差异为碳源不同，培养基A仅含葡萄糖，培养基B含等量葡萄糖＋乳糖，A和B的碳源总量相同，大肠杆菌在这两种培养基种的生长情况如图，请解释该差异产生的生化机制。<img src="https://maomaohead.github.io/post-images/1704176710834.jpg" alt="" loading="lazy"></h3>
 <h1 id="第十七章-细胞信号转导的分子机制">第十七章 细胞信号转导的分子机制</h1>
 <h3 id="1-2021级期末试述胰高血糖素升高血糖的机制任举1例详述其调控的信号通路-2">1、（2021级期末）试述胰高血糖素升高血糖的机制，任举1例详述其调控的信号通路。</h3>
 <p>（1）胰岛素升高血糖的机制：</p>
@@ -79,6 +126,9 @@
 <p>①p53蛋白具有转录因子活性，当细胞受到电离辐射或化学试剂等作用导致DNA损伤时，p53表达水平迅速升高，同时p53蛋白中包含的一些丝氨酸残基被磷酸化修饰而活化。</p>
 <p>②活化的p53从细胞质移位到细胞核内，调控下游靶基因的转录从而发挥其生物学功能。例如，p53的靶基因之一p21可以阻止细胞通过<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub><mi mathvariant="normal">/</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">G_1/S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>检查点，使其停滞于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">G_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>期；另一靶基因GADD45的产物是DNA修复蛋白。这就使受损的细胞停止分裂、修复损伤，以维持基因组的稳定性。如果修复失败，p53蛋白就会通过激活一些靶基因例如BAX的转录从而启动细胞凋亡，组织有癌变倾向突变细胞的生成。</p>
 <h1 id="第二十三章-dna重组和重组dna技术">第二十三章 DNA重组和重组DNA技术</h1>
+<h3 id="1-2020级期末在动物体内研究某种蛋白质的功能需要大量的重组蛋白现将目的基因和载体进行重组实验室只有氨苄青霉素和x-gal两种试剂请问">1、（2020级期末）在动物体内研究某种蛋白质的功能需要大量的重组蛋白，现将目的基因和载体进行重组，实验室只有氨苄青霉素和X-gal两种试剂，请问：</h3>
+<h3 id="1这种情况下选用以上哪个质粒进行重组可以确保重组质粒筛选的阳性率较高请说明理由">（1）这种情况下选用以上哪个质粒进行重组可以确保重组质粒筛选的阳性率较高？请说明理由。</h3>
+<h3 id="2对于所选择的质粒能否继续表达出重组蛋白如果可以请解释具体的机制">（2）对于所选择的质粒能否继续表达出重组蛋白？如果可以，请解释具体的机制。<img src="https://maomaohead.github.io/post-images/1704177000452.jpg" alt="" loading="lazy"></h3>
 <h1 id="第二十四章-常用分子生物学技术的原理及其应用">第二十四章 常用分子生物学技术的原理及其应用</h1>
 <h3 id="1-2021级期末请叙述1什么是pcr-2描述其反应体系成分-过程和原理-3请列举三项以上的pcr衍生技术">1、（2021级期末）请叙述：（1）什么是PCR？ （2）描述其反应体系成分、过程和原理。 （3）请列举三项以上的PCR衍生技术。</h3>
 <p>（1） PCR又称聚合酶链式反应，是体外酶促合成特异DNA片段的一种方法，由高温变性、低温退火及中温延伸等几步反应组成一个周期，循环进行，使目的DNA得以迅速扩增，具有特异性强、灵敏度高、操作简便、省时的特点，可用于基因分离、克隆和核酸序列分析等基础研究和基因诊断等应用。</p>
