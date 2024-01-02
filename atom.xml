@@ -2,14 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://maomaohead.github.io</id>
     <title>MaoMaoHead</title>
-    <updated>2023-12-31T15:53:51.811Z</updated>
+    <updated>2024-01-02T03:33:36.282Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://maomaohead.github.io"/>
     <link rel="self" href="https://maomaohead.github.io/atom.xml"/>
     <subtitle>爆肝蓝色生死恋</subtitle>
     <logo>https://maomaohead.github.io/images/avatar.png</logo>
     <icon>https://maomaohead.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2023, MaoMaoHead</rights>
+    <rights>All rights reserved 2024, MaoMaoHead</rights>
+    <entry>
+        <title type="html"><![CDATA[《生物化学与分子生物学》学海主观题整理]]></title>
+        <id>https://maomaohead.github.io/post/lesslesssheng-wu-hua-xue-yu-fen-zi-sheng-wu-xue-greatergreater-xue-hai-zhu-guan-ti-zheng-li/</id>
+        <link href="https://maomaohead.github.io/post/lesslesssheng-wu-hua-xue-yu-fen-zi-sheng-wu-xue-greatergreater-xue-hai-zhu-guan-ti-zheng-li/">
+        </link>
+        <updated>2024-01-02T01:02:13.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="第一章-蛋白质的结构和功能">第一章 蛋白质的结构和功能</h1>
+<h1 id="第二章-核酸的结构和功能">第二章 核酸的结构和功能</h1>
+<h3 id="1-2021级期末试述sirna和mirna的区别">1、（2021级期末）试述siRNA和miRNA的区别。</h3>
+<p>① 来源不同：miRNA是内源性RNA，是生物体的固有因素；而siRNA是人工体外合成的外源性RNA，通过转染进入人体内，是RNA干涉的中间产物。</p>
+<p>② 结构不同：miRNA为单链RNA，而siRNA是双链RNA</p>
+<p>③ Dicer酶对二者的加工位置不同。miRNA是不对称加工，仅剪切pre-miRNA的一个侧壁，其他部分降解；而siRNA对称来源于双链RNA前体的两侧臂。</p>
+<p>④ 作用位置不同：miRNA主要作用于靶标基因3'-UTR区，而siRNA可以作用于mRNA的任何部位。</p>
+<p>⑤ 作用方式不同：miRNA从转录后水平和翻译水平发挥作用，既可抑制靶标mRNA的翻译，也可导致其降解；siRNA只能从转录后水平发挥作用，只能导致靶标mRNA的降解。</p>
+<p>⑥ miRNA主要在发育过程中起作用，调节内源性基因的表达，而siRNA则不参与生物的生长调控，其为RNAi的产物，原始作用是抑制转座子的活性和病毒的感染。</p>
+<h1 id="第三章-酶与酶促反应">第三章 酶与酶促反应</h1>
+<h1 id="第四章-聚糖的结构与功能">第四章 聚糖的结构与功能</h1>
+<h1 id="第五章-糖代谢">第五章 糖代谢</h1>
+<h3 id="1-2021级期末试述胰高血糖素升高血糖的机制任举1例详述其调控的信号通路">1、（2021级期末）试述胰高血糖素升高血糖的机制，任举1例详述其调控的信号通路。</h3>
+<p>（1）胰岛素升高血糖的机制：</p>
+<p>① 抑制糖原合酶而激活磷酸化酶，抑制肝糖原的合成、促进肝糖原的分解。</p>
+<p>② 抑制磷酸果糖激酶-2、激活果糖二磷酸酶-2，减少F-2,6-BP的合成。由于后者是磷酸果糖激酶-1的最强别构激活剂和果糖二磷酸酶-1的别构抑制剂，从而抑制糖酵解、促进糖异生。</p>
+<p>③ 抑制肝内丙酮酸激酶的活性，阻止磷酸烯醇式丙酮酸继续糖酵解；同时促进磷酸烯醇式丙酮酸的合成，使糖异生增强。</p>
+<p>④ 激活脂肪组织内激素敏感性脂肪酶，促进脂肪分解供能，以节约血糖。</p>
+<p>（2）信号通路：</p>
+<p>胰高血糖素作用于肝组织细胞上的G蛋白耦连受体后，促使G蛋白与GDP解离，从而激活G蛋白。活化的G蛋白激活腺苷酸环化酶（AC），使cAMP生成增加。cAMP能激活蛋白激酶A（PKA），催化无活性的磷酸化酶b激酶磷酸化为有活性的磷酸化酶b激酶。后者催化无活性的磷酸化酶b磷酸化为磷酸化酶，从而促进糖原的分解，提高血糖水平。</p>
+<h1 id="第六章-生物氧化">第六章 生物氧化</h1>
+<h1 id="第七章-脂质代谢">第七章 脂质代谢</h1>
+<h1 id="第八章-蛋白质消化吸收和氨基酸代谢">第八章 蛋白质消化吸收和氨基酸代谢</h1>
+<h3 id="1-2021级期末肝昏迷又称肝性脑病是由于严重的肝脏功能障碍引起的以代谢紊乱为基础的中枢神经功能失调的综合病症其主要临床表现是意识障碍-行为失常和昏迷-试从氨代谢的角度分析血氨增高导致肝昏迷的可能机制">1、（2021级期末）肝昏迷又称肝性脑病，是由于严重的肝脏功能障碍引起的以代谢紊乱为基础的中枢神经功能失调的综合病症，其主要临床表现是意识障碍、行为失常和昏迷。试从氨代谢的角度，分析血氨增高导致肝昏迷的可能机制。</h3>
+<p>① 脑内正常氨代谢：在肝内合成尿素是氨的主要出路。正常情况下，α-酮戊二酸除参与三羧酸循环外，还有一部分结合等摩尔的氨形成谷氨酸，后者再结合等摩尔氨在谷氨酰胺合成酶的作用下生成谷氨酰胺，氨由此以谷氨酰胺的形式从脑组织运往肝组织，在肝细胞的线粒体和胞液中通过尿苷酸循环合成尿素后随尿液排出。</p>
+<p>② 肝脏功能发生严重障碍时，体内氨含量升高，脑组织中有更多的α-酮戊二酸转化成为谷氨酰胺，导致参与三羧酸循环的α-酮戊二酸减少，造成ATP生成减少，导致脑供能不足，因而产生意识障碍、行为失常和昏迷。</p>
+<p>③ 谷氨酸和谷氨酰胺可以改变细胞渗透压，其含量的增加使脑组织的渗透压增高而造成脑水肿，从而导致脑组织功能障碍。</p>
+<p>④ Tyr、Phe 经肠道细胞脱羧产生酪胺、苯乙胺，不在肝及时转化，易进入脑组织，在 β-羟化酶作用下，生成β-羟酪胺和苯乙醇胺，此二者结构类似儿茶酚胺，称为假神经递质，可竞争性干扰儿茶酚胺，阻碍神经冲动的传递，使大脑发生异常抑制。</p>
+<p>⑤ 氨可激活神经细胞膜上的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>N</mi><msup><mi>a</mi><mo>+</mo></msup><mo separator="true">,</mo><msup><mi>K</mi><mo>+</mo></msup><mo>−</mo><mi>A</mi><mi>T</mi><mi>P</mi></mrow><annotation encoding="application/x-tex">Na^+,K^+-ATP</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9657709999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.771331em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.771331em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span></span></span></span>酶，并和<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>K</mi><mo>+</mo></msup></mrow><annotation encoding="application/x-tex">K^+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.771331em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.771331em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">+</span></span></span></span></span></span></span></span></span></span></span>有竞争作用，因此氨含量的升高可影响脑组织的离子分布和神经传导。</p>
+<p>⑥ 谷氨酸是重要的兴奋性的神经递质，氨含量的升高会导致谷氨酸更多地转变为谷氨酰胺，可能导致谷氨酸的含量减少，进而抑制了脑组织神经的兴奋性。</p>
+<h1 id="第九章-核苷酸代谢">第九章 核苷酸代谢</h1>
+<h1 id="第十章-代谢的整合和调节">第十章 代谢的整合和调节</h1>
+<h1 id="第十一章-真核基因与基因组">第十一章 真核基因与基因组</h1>
+<h1 id="第十二章-dna的合成">第十二章 DNA的合成</h1>
+<h1 id="第十三章-dna损伤与损伤修复">第十三章 DNA损伤与损伤修复</h1>
+<h1 id="第十四章-rna的合成">第十四章 RNA的合成</h1>
+<h1 id="第十五章-蛋白质的合成">第十五章 蛋白质的合成</h1>
+<h3 id="1-2021级期末请简述多肽链的生物合成过程">1、（2021级期末）请简述多肽链的生物合成过程。</h3>
+<h1 id="第十六章-基因表达调控">第十六章 基因表达调控</h1>
+<h1 id="第十七章-细胞信号转导的分子机制">第十七章 细胞信号转导的分子机制</h1>
+<h3 id="1-2021级期末试述胰高血糖素升高血糖的机制任举1例详述其调控的信号通路-2">1、（2021级期末）试述胰高血糖素升高血糖的机制，任举1例详述其调控的信号通路。</h3>
+<p>（1）胰岛素升高血糖的机制：</p>
+<p>① 抑制糖原合酶而激活磷酸化酶，抑制肝糖原的合成、促进肝糖原的分解。</p>
+<p>② 抑制磷酸果糖激酶-2、激活果糖二磷酸酶-2，减少F-2,6-BP的合成。由于后者是磷酸果糖激酶-1的最强别构激活剂和果糖二磷酸酶-1的别构抑制剂，从而抑制糖酵解、促进糖异生。</p>
+<p>③ 抑制肝内丙酮酸激酶的活性，阻止磷酸烯醇式丙酮酸继续糖酵解；同时促进磷酸烯醇式丙酮酸的合成，使糖异生增强。</p>
+<p>④ 激活脂肪组织内激素敏感性脂肪酶，促进脂肪分解供能，以节约血糖。</p>
+<p>（2）信号通路：</p>
+<p>胰高血糖素作用于肝组织细胞上的G蛋白耦连受体后，促使G蛋白与GDP解离，从而激活G蛋白。活化的G蛋白激活腺苷酸环化酶（AC），使cAMP生成增加。cAMP能激活蛋白激酶A（PKA），催化无活性的磷酸化酶b激酶磷酸化为有活性的磷酸化酶b激酶。后者催化无活性的磷酸化酶b磷酸化为磷酸化酶，从而促进糖原的分解，提高血糖水平。</p>
+<h1 id="第十八章-血液的生物化学">第十八章 血液的生物化学</h1>
+<h1 id="第十九章-肝的生物化学">第十九章 肝的生物化学</h1>
+<h1 id="第二十章-维生素">第二十章 维生素</h1>
+<h1 id="第二十一章-钙-磷和微量元素">第二十一章 钙、磷和微量元素</h1>
+<h1 id="第二十二章-癌基因和抑癌基因">第二十二章 癌基因和抑癌基因</h1>
+<h3 id="1-2021级期末请叙述prb蛋白和p53蛋白调节细胞周期进程的作用原理">1、（2021级期末）请叙述pRB蛋白和p53蛋白调节细胞周期进程的作用原理。</h3>
+<p>（1）pRB蛋白的作用原理：</p>
+<p>① RB蛋白的磷酸化状态及其与其他蛋白质结合的状态，和它的功能密切相关。RB蛋白的去磷酸化为其活性形式，能促进细胞分化，抑制细胞增殖。</p>
+<p>② RB的磷酸化程度受细胞周期中增殖调控蛋白质的直接控制，这些蛋白质包括随着细胞周期不同时相的转换，其浓度也随之变化的细胞周期蛋白，以及受到这些蛋白质调节的蛋白激酶。这些蛋白激酶称为细胞周期蛋白依赖性激酶。</p>
+<p>③ 细胞进入<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">G_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>期时RB处于低磷酸化状态，而低磷酸化状态的RB使细胞无法通过<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub><mi mathvariant="normal">/</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">G_1/S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>检查点。只有在细胞增值信号通过<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi><mi>y</mi><mi>c</mi><mi>l</mi><mi>i</mi><mi>n</mi><mi>D</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">cyclin D1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord mathdefault">c</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.02778em;">D</span><span class="mord">1</span></span></span></span>的激酶CDK4的活化导致RB磷酸化后，高磷酸化的RB才允许细胞跨国<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub><mi mathvariant="normal">/</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">G_1/S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>检查点。因此低磷酸化的RB在<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">G_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>期特异的磷酸化是细胞从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">G_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>期进入<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>期的关键。</p>
+<p>④低磷酸化RB对细胞周期的负调节作用是通过与转录因子<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mn>2</mn><mi>F</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">E2F-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord">2</span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>的结合而实现的。低磷酸化RB的口袋结构域能结合<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>E</mi><mn>2</mn><mi>F</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">E2F-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span><span class="mord">2</span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>并使之失活，S期必需的基因产物如二氢叶酸还原酶、胸苷激酶、DNA聚合酶α等的合成因而受限，细胞周期的进展受到抑制。而高磷酸化的RB不能与E2F-1结合，将导致这些基因的开放，促使细胞通过<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub><mi mathvariant="normal">/</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">G_1/S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>关卡。</p>
+<p>（2）p53蛋白的作用原理：</p>
+<p>①p53蛋白具有转录因子活性，当细胞受到电离辐射或化学试剂等作用导致DNA损伤时，p53表达水平迅速升高，同时p53蛋白中包含的一些丝氨酸残基被磷酸化修饰而活化。</p>
+<p>②活化的p53从细胞质移位到细胞核内，调控下游靶基因的转录从而发挥其生物学功能。例如，p53的靶基因之一p21可以阻止细胞通过<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub><mi mathvariant="normal">/</mi><mi>S</mi></mrow><annotation encoding="application/x-tex">G_1/S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">/</span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>检查点，使其停滞于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>G</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">G_1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">G</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>期；另一靶基因GADD45的产物是DNA修复蛋白。这就使受损的细胞停止分裂、修复损伤，以维持基因组的稳定性。如果修复失败，p53蛋白就会通过激活一些靶基因例如BAX的转录从而启动细胞凋亡，组织有癌变倾向突变细胞的生成。</p>
+<h1 id="第二十三章-dna重组和重组dna技术">第二十三章 DNA重组和重组DNA技术</h1>
+<h1 id="第二十四章-常用分子生物学技术的原理及其应用">第二十四章 常用分子生物学技术的原理及其应用</h1>
+<h3 id="1-2021级期末请叙述1什么是pcr-2描述其反应体系成分-过程和原理-3请列举三项以上的pcr衍生技术">1、（2021级期末）请叙述：（1）什么是PCR？ （2）描述其反应体系成分、过程和原理。 （3）请列举三项以上的PCR衍生技术。</h3>
+<p>（1） PCR又称聚合酶链式反应，是体外酶促合成特异DNA片段的一种方法，由高温变性、低温退火及中温延伸等几步反应组成一个周期，循环进行，使目的DNA得以迅速扩增，具有特异性强、灵敏度高、操作简便、省时的特点，可用于基因分离、克隆和核酸序列分析等基础研究和基因诊断等应用。</p>
+<p>（2）反应体系成分、过程和原理：</p>
+<p>① 反应体系成分：模板DNA、特异引物、耐热性DNA聚合酶、dNTP、含有<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>M</mi><msup><mi>g</mi><mrow><mn>2</mn><mo>+</mo></mrow></msup></mrow><annotation encoding="application/x-tex">Mg^{2+}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.008548em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">+</span></span></span></span></span></span></span></span></span></span></span></span>的缓冲液。</p>
+<p>② 过程：</p>
+<ol>
+<li>变性：将反应体系加热至95%，使模板DNA完全变性为单链，同时引物自身以及引物之间存在的局部双链也得以消除。</li>
+<li>退火：将温度下降到适宜温度（一般较<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>T</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">T_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>低5℃），是引物与模板DNA结合；</li>
+<li>延伸：将温度升至72℃，DNA聚合酶以dNTP为底物催化DNA的合成反应。<br>
+上述三个步骤成为1个循环，新合成的DNA分子继续作为下一轮合成的模板，经多次循环（25~30次）后即可达到扩增DNA片段的目的。</li>
+</ol>
+<p>③ 原理：在体外模拟体内DNA复制的过程。以待扩增的DNA分子作为模板，用两条寡核苷酸片段作为引物，分别在拟扩增片段的DNA两侧与模板DNA链互补结合，提供3'-OH末端，在DNA聚合酶的作用下，按照半保留复制的机制沿着模板链延伸直至完成两条新链的合成。不断重复这一过程，即可使目的DNA片段扩增。</p>
+<p>（3）PCR衍生技术：逆转录PCR、原位PCR、实时PCR、RDA技术、mRNA-DD等。</p>
+<h1 id="第二十五章-基因结构功能分析和疾病相关基因鉴定克隆">第二十五章 基因结构功能分析和疾病相关基因鉴定克隆</h1>
+<h1 id="第二十六章-基因诊断和基因治疗">第二十六章 基因诊断和基因治疗</h1>
+<h1 id="第二十七章-组学与系统生物医学">第二十七章 组学与系统生物医学</h1>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2024新年愿望盒子]]></title>
         <id>https://maomaohead.github.io/post/xin-nian-yuan-wang-he-zi/</id>
@@ -555,23 +643,5 @@ LazyData: true
         </link>
         <updated>2023-12-11T11:37:31.000Z</updated>
         <content type="html"><![CDATA[<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:1000px;height:1000px;" src="https://www.zhixi.com/embed/7d097a00#"></iframe>]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[SN-23-01]关于做好期末考试复习工作的通知]]></title>
-        <id>https://maomaohead.github.io/post/sn-23-01guan-yu-zuo-hao-qi-mo-kao-shi-fu-xi-gong-zuo-de-tong-zhi/</id>
-        <link href="https://maomaohead.github.io/post/sn-23-01guan-yu-zuo-hao-qi-mo-kao-shi-fu-xi-gong-zuo-de-tong-zhi/">
-        </link>
-        <updated>2023-11-22T13:30:00.000Z</updated>
-        <content type="html"><![CDATA[<p>在过去的几个月中，通过自己在各个学科的发力，学业情况取得了重要的进展。现在，期末考试日期趋近，死线数量开始增多、复习压力逐渐增大。本次期末考试对自身发展具有重要意义。一方面，本次期末考试对大二学年奖学金评定占据重要地位，是获得奖学金的决定性因素之一。另一方面，它对于增强自信、进一步争取保研名额具有重要意义。现将期末复习有关事项通知如下：</p>
-<p><strong>一、严肃认真对待期末复习。</strong> 本次期末考试复习工作同往年一样，具有“时间紧、任务重”的特征，需要以更加认真的态度应对。应适当减少非必要的娱乐和外出活动、适当延长用于学习的时间，保质保量完成复习工作。</p>
-<p><strong>二、树立、坚定打赢期末复习战的信心。</strong> 应当认识到过去三个月以来在生理学、生物化学与分子生物学等学科取得的重要阶段性成果；认识到以上成果对于期末备考的意义。本次期末复习备考工作具有往年期末复习备考所不具有的、对备考有建设性意义的学业基础。上述学业基础在很大程度上减轻了期末复习备考的压力。</p>
-<p><strong>三、认识到本学期期末复习工作所具有的独特挑战。</strong> 本学期期末复习所需面对的最为突出的新挑战在于，期末备考时间段和多个活动（如“寒招”、CET-6、广州马拉松运动等）的时间段高度重合。应正确认识、并妥善处理以上矛盾。</p>
-<p><strong>四、注意在期末备考期间的身体状况维护。</strong> 重新建立并保持良好的生活习惯，坚决避免学习、社交等因素导致生活状态的紊乱。规范作息规律，非必要不熬夜，尽力避免赖床。规范饮食规律，减少喝冷饮的频率，尽可能回归一日三餐的状态。对于生病等不可预测的因素，做好随时应对准备，力争将损失降至最低。</p>
-<p><strong>五、分清轻重缓急，切忌顾此失彼。</strong> 由于前期的教学及学习方式，各个科目的复习进度不一。应根据各个科目的考试时间及复习进度统筹安排，力争将总体复习效果做到最佳。</p>
-<p><strong>六、坚持以我为主，以他为辅。</strong> 应认识到学习的主体是“我自己”而非他人。允许在一定程度上借助他人的力量来应对各种问题，但不可过度依赖他人。应独立自主解决最关键的问题。</p>
-<p><strong>A+咕</strong><br>
-<strong>花开富贵</strong><br>
-<strong>CH₃CH₂CH₂CH₃</strong></p>
-]]></content>
     </entry>
 </feed>
