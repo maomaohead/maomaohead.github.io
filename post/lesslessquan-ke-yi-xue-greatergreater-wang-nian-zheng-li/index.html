@@ -4,7 +4,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<title>R★ | MaoMaoHead</title>
+<title>《全科医学》往年整理 | MaoMaoHead</title>
 
 <link rel="shortcut icon" href="https://maomaohead.github.io/favicon.ico?v=1704359849058">
 
@@ -257,268 +257,113 @@
         <div class="post-detail gt-bg-theme-color-second">
             <article class="gt-post-content">
                 <h2 class="post-title">
-                    R★
+                    《全科医学》往年整理
                 </h2>
                 <div class="post-info">
                     <time class="post-time gt-c-content-color-first">
-                        · 2023-09-26 ·
+                        · 2024-01-04 ·
                     </time>
                     
                 </div>
                 <div class="post-content">
-                    <p>建立、查询表格</p>
-<pre><code>manager=c(1,2,3,4,5)
-date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&quot;5/1/09&quot;)
-country=c(&quot;US&quot;,&quot;US&quot;,&quot;UK&quot;,&quot;UK&quot;,&quot;UK&quot;)
-gender=c(&quot;M&quot;,&quot;F&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;)
-age=c(32,45,25,39,99)
-q1=c(5,3,3,3,2)
-q2=c(4,5,5,3,2)
-q3=c(5,2,5,4,1) 
-q4=c(5,5,5,NA,2)
-q5=c(5,5,2,NA,1)
-leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
-
-head(leadership)
-
-leadership[2,3]
-leadership$age[2]
-leadership[,5]
-length(leadership$age)
-leadership[5,]
-leadership[c(2,4),5]
-
-names(leadership)
-names(leadership)[3]
-
-leadership[age&gt;40,]
-leadership[country==&quot;US&quot;,]
-leadership[country==&quot;US&quot;&amp;gender==&quot;M&quot;,]
-leadership[country==&quot;US&quot;|gender==&quot;M&quot;,]
-leadership[country!=&quot;US&quot;,]
-
-age^2
-sqrt(age)
-q1+q2
-
-leadership$x1 = q1 + q2
-leadership
-
-leadership$x1=rowMeans(leadership[,6:8])
-leadership
-
-leadership$agegroup[age&gt;=40&amp;age&lt;50]=&quot;40-50&quot;
-leadership$agegroup[age&lt;40]=&quot;&lt;40&quot;
-leadership$agegroup[age&gt;=50]=&quot;&gt;=50&quot;
-leadership
-
-names(leadership)[4]=&quot;性 别&quot;
-leadership
-
-leadership$q4[is.na(leadership$q4)]=0
-leadership
-
-mean(leadership$q4,na.rm = T)
-is.na(leadership$q4)
-
-dates=as.Date(&quot;01/05/1965&quot;,&quot;%m/%d/%Y&quot;)
-dates
-
-leadership[order(leadership$age),]
-
-leadership[order(leadership$age,decreasing = T),]
-</code></pre>
-<p>运行结果</p>
-<pre><code>&gt; manager=c(1,2,3,4,5)
-&gt; date=c(&quot;10/24/08&quot;,&quot;10/28/08&quot;,&quot;10/1/08&quot;,&quot;10/12/08&quot;,&quot;5/1/09&quot;)
-&gt; country=c(&quot;US&quot;,&quot;US&quot;,&quot;UK&quot;,&quot;UK&quot;,&quot;UK&quot;)
-&gt; gender=c(&quot;M&quot;,&quot;F&quot;,&quot;F&quot;,&quot;M&quot;,&quot;F&quot;)
-&gt; age=c(32,45,25,39,99)
-&gt; q1=c(5,3,3,3,2)
-&gt; q2=c(4,5,5,3,2)
-&gt; q3=c(5,2,5,4,1)
-&gt; q4=c(5,5,5,NA,2)
-&gt; q5=c(5,5,2,NA,1)
-&gt; leadership = data.frame(manager,date,country,gender,age,q1,q2,q3,q4,q5,stringsAsFactors = FALSE)
-&gt; 
-&gt; head(leadership)
-   manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-3       3  10/1/08      UK      F  25  3  5  5  5  2
-4       4 10/12/08      UK      M  39  3  3  4 NA NA
-5       5   5/1/09      UK      F  99  2  2  1  2  1
-&gt; 
-&gt; leadership[2,3]
-[1] &quot;US&quot;
-&gt; leadership$age[2]
-[1] 45
-&gt; leadership[,5]
-[1] 32 45 25 39 99
-&gt; length(leadership$age)
-[1] 5
-&gt; leadership[5,]
-manager   date country gender age q1 q2 q3 q4 q5
-5       5 5/1/09      UK      F  99  2  2  1  2  1
-&gt; leadership[c(2,4),5]
-[1] 45 39
-&gt; names(leadership)
- [1] &quot;manager&quot; &quot;date&quot;    &quot;country&quot; &quot;gender&quot;  &quot;age&quot;     &quot;q1&quot;      &quot;q2&quot;      &quot;q3&quot;     
-[9] &quot;q4&quot;      &quot;q5&quot;  
-&gt; names(leadership)[3]
-[1] &quot;country&quot;
-&gt; leadership[age&gt;40,]
-  manager     date country gender age q1 q2 q3 q4 q5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-5       5   5/1/09      UK      F  99  2  2  1  2  1
-&gt; leadership[country==&quot;US&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-&gt; leadership[country==&quot;US&quot;&amp;gender==&quot;M&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-&gt; leadership[country==&quot;US&quot;|gender==&quot;M&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-1       1 10/24/08      US      M  32  5  4  5  5  5
-2       2 10/28/08      US      F  45  3  5  2  5  5
-4       4 10/12/08      UK      M  39  3  3  4 NA NA
-&gt; leadership[country!=&quot;US&quot;,]
-  manager     date country gender age q1 q2 q3 q4 q5
-3       3  10/1/08      UK      F  25  3  5  5  5  2
-4       4 10/12/08      UK      M  39  3  3  4 NA NA
-5       5   5/1/09      UK      F  99  2  2  1  2  1
-&gt; age^2
-[1] 1024 2025  625 1521 9801
-&gt; sqrt(age)
-[1] 5.656854 6.708204 5.000000 6.244998 9.949874
-&gt; q1+q2
-[1] 9 8 8 6 4
-&gt; x1 = q1 + q2
-&gt; leadership
-  manager     date country gender age q1 q2 q3 q4 q5 x1
-1       1 10/24/08      US      M  32  5  4  5  5  5  9
-2       2 10/28/08      US      F  45  3  5  2  5  5  8
-3       3  10/1/08      UK      F  25  3  5  5  5  2  8
-4       4 10/12/08      UK      M  39  3  3  4 NA NA  6
-5       5   5/1/09      UK      F  99  2  2  1  2  1  4
-&gt; leadership$x1=rowMeans(leadership[,6:8])
-&gt; leadership
-  manager     date country gender age q1 q2 q3 q4 q5       x1
-1       1 10/24/08      US      M  32  5  4  5  5  5 4.666667
-2       2 10/28/08      US      F  45  3  5  2  5  5 3.333333
-3       3  10/1/08      UK      F  25  3  5  5  5  2 4.333333
-4       4 10/12/08      UK      M  39  3  3  4 NA NA 3.333333
-5       5   5/1/09      UK      F  99  2  2  1  2  1 1.666667
-&gt; leadership$agegroup[age&gt;=40&amp;age&lt;50]=&quot;40-50&quot;
-&gt; leadership$agegroup[age&lt;40]=&quot;&lt;40&quot;
-&gt; leadership$agegroup[age&gt;50]=&quot;&gt;50&quot;
-&gt; leadership
-  manager     date country gender age q1 q2 q3 q4 q5       x1 agegroup
-1       1 10/24/08      US      M  32  5  4  5  5  5 4.666667      &lt;40
-2       2 10/28/08      US      F  45  3  5  2  5  5 3.333333    40-50
-3       3  10/1/08      UK      F  25  3  5  5  5  2 4.333333      &lt;40
-4       4 10/12/08      UK      M  39  3  3  4 NA NA 3.333333      &lt;40
-5       5   5/1/09      UK      F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; names(leadership)[4]=&quot;性 别&quot;
-&gt; leadership
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-4       4 10/12/08      UK     M  39  3  3  4 NA NA 3.333333      &lt;40
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; leadership
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; mean(leadership$q4,na.rm = T)
-[1] 3.4
-&gt; is.na(leadership$q4)
-[1] FALSE FALSE FALSE FALSE FALSE
-&gt; dates=as.Date(&quot;01/05/1965&quot;,&quot;%m/%d/%Y&quot;)
-&gt; dates
-[1] &quot;1965-01-05&quot;
-&gt; leadership[order(leadership$age),]
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-&gt; 
-&gt; 
-&gt; leadership[order(leadership$age,decreasing = T),]
-  manager     date country 性 别 age q1 q2 q3 q4 q5       x1 agegroup
-5       5   5/1/09      UK     F  99  2  2  1  2  1 1.666667      &gt;50
-2       2 10/28/08      US     F  45  3  5  2  5  5 3.333333    40-50
-4       4 10/12/08      UK     M  39  3  3  4  0 NA 3.333333      &lt;40
-1       1 10/24/08      US     M  32  5  4  5  5  5 4.666667      &lt;40
-3       3  10/1/08      UK     F  25  3  5  5  5  2 4.333333      &lt;40
-</code></pre>
-<p>代码</p>
-<pre><code>install.packages(&quot;openxlsx&quot;)
-library(openxlsx)
-data=read.xlsx(&quot;C:/Users/86150/Desktop/survival data.xlsx&quot;, sheet=1)
-
-data2=data[data$初诊年龄&lt;60&amp;data$T分期==1,]
-data$EAIgA[data$EAIgA==&quot;阴&quot;|data$EAIgA==&quot;阴性&quot;|data$EAIgA==&quot;-&quot;|data$EAIgA==&quot;&quot;]=0
-
-data$EAIgA=as.numeric(data$EAIgA)
-
-mean(data2$EAIgA,na.rm = T)
-
-table(data2$性别,data2$吸烟与否)
-
-plot(data2$LDH,data2$Overall.survival.time)
-
-data2$kk[data2$LDH&gt;200]=&quot;High&quot;
-data2$kk[data2$LDH&lt;=200]=&quot;Low&quot;
-
-data2$k=ifelse(data2$EAIgA&lt;=200,&quot;low&quot;,&quot;high&quot;)
-
-for(i in 1:100){
-  if(data2$LDH[i]&lt;200) data2$kk[i]=&quot;low&quot; else data2$kk[i]=&quot;high&quot;
-}
-
-junshu=mean(data2$LDH)
-biaozhuncha=sd(data$LDH)
-junshu
-biaozhuncha
-round(junshu,2)
-round(biaozhuncha,2)
-junshu
-biaozhuncha
-
-sprintf(&quot;%.2f&quot;,junshu)
-sprintf(&quot;%.2f&quot;,biaozhuncha)
-paste0(sprintf(&quot;%.2f&quot;,junshu),&quot;±&quot;,sprintf(&quot;%.2f&quot;,biaozhuncha))
-
-
-
-mean_Z=function(var){
-junshu=mean(var)
-biaozhuncha=sd(var)
-paste0(sprintf(&quot;%.2f&quot;,junshu),&quot;±&quot;,sprintf(&quot;%.2f&quot;,biaozhuncha))
-}
-mean_Z(data2$LDH)
-mean_Z(data2$EALgA)
-mean_Z(data2$初诊年龄)
-
-#自编一个输入两个分类变量的名字就可以返回四格表的函数
-
-Ptable=function(var1,var2){
-a=table(var1,var2)
-b=chisq.test(a)
-c=b$statistic
-d=b$p.value
-return(list(a,b,c,d))
-}
-Ptable(data$性别,data$吸烟与否)
-</code></pre>
+                    <h1 id="2020级">2020级</h1>
+<h3 id="一-名词解释">一、名词解释</h3>
+<ol>
+<li>
+<p>全科医学<br>
+又称家庭医学，是一个面向人、社区和家庭，整合临床医学、预防医学、康复医学以及人文社会学科相关内容于一体的综合性临床二级学科；其范围涵盖了各种年龄、性别、各个器官系统以及各类健康问题或疾病；主旨强调以人为中心、以家庭为单位、以整体健康的维护与促进为方向的长期负责式照顾，并将个体与群体健康照顾、防和治有机地融为一体。</p>
+</li>
+<li>
+<p>高血压<br>
+<img src="https://maomaohead.github.io/post-images/1704359300605.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>家庭结构</p>
+</li>
+<li>
+<p>health education</p>
+</li>
+<li>
+<p>焦虑障碍<br>
+广泛性焦虑障碍的典型临床表现包括精神性焦虑、躯体性焦虑和自主神经功能紊乱、警觉性增高等，常常缓慢起病。精神性焦虑主要表现为精神上的过度担心，表现为对未来可能发生的、难以预料的不幸事件或某种危险经常担心。躯体性焦虑表现为运动不安与肌肉紧张，可表现为坐立不安、来回走动、搓手顿足、无目的的小动作增多。自主神经功能紊乱表现为心动过速、胸闷气短，皮肤湖红或苍白，口干，便秘或腹泻，出汗，尿意频繁等症状，有的病人出现早泄、阳痿、月经紊乱等症状。广泛性焦虑障碍病人常合并疲劳、抑郁、强迫、恐惧、惊恐发作及人格解体等症状。</p>
+</li>
+</ol>
+<h3 id="二-简答题">二、简答题</h3>
+<ol>
+<li>
+<p>临床预防服务的意义。<br>
+① 贯彻执行国家卫生工作的方针政策<br>
+② 降低疾病的发病率和死亡率<br>
+③ 有效改善生命质量<br>
+④ 促进专科医生加强预防意识<br>
+⑤ 提高社区卫生服务的质量和水平</p>
+</li>
+<li>
+<p>全科临床医学思维<br>
+（1）概念：临床医生利用医学科学、自然科学、人文社会科学和行为科学的知识，对临床资料进行综合分析、逻辑推理，从错综复杂的线索中找出主要矛盾并加以解决的过程。<br>
+（2）要素：获取真实、系统、完整、准确的临床资料是临床思维的必备要素<br>
+（3）全科医学临床思维特征：以病人为中心的系统思维模式（充分了解病人，关注病人的就医背景，以生物-心理-社会的医学模式确认现存问题，体现劝人照顾的特点）、以问题为导向的诊疗思维模式、以证据为基础的临床思维模式。</p>
+</li>
+<li>
+<p>全科医生在肿瘤姑息疗法中的任务<br>
+姑息治疗的目的是提高癌症病人生活质量，帮助病人及家属面对与威胁生命疾病相关的各种问题。全科医生对晚期恶性肿瘤病人既要给予一定的药物治疗，又要进行心理疏导，以及提供各方面的支持与帮助。</p>
+</li>
+<li>
+<p>对重点人群的保健策略。<br>
+(1) 妇女在各阶段的保健重点（P288-289）<br>
+（1）青春期保健<br>
+（2）孕产期保健<br>
+（3）围绝经期的保健<br>
+(2) 儿童各阶段的保健重点（P292-293）<br>
+（1）胎儿期<br>
+（2）新生儿期<br>
+（3）婴儿期<br>
+（4）幼儿期<br>
+（5）学龄前期<br>
+（6）学龄期<br>
+(3) 全科医疗中的老年保健（P297-298）<br>
+（1）开展社区老年综合功能评估<br>
+（2）健康教育：老年人的适应能力、抗病能力和代谢能力都有明显的降低，有必要接受有关专业人员的指导。通过健康教育，使老年人自己能能制定合理的生活方式，如保持适量的活动。生活要有规律，保持充分的睡眠，平衡膳食，注意营养素的搭配，适量饮茶，保持心情舒畅平静，不宜过于激动等。<br>
+（3）健康检查：老年人要定期做身体检查，每年至少一次，全科医生应根据周期性健康检查的要求，对老年人展开体检，发现问题，并及时采取保健措施，必要时向上级医院转送。<br>
+（4）日常活动管理：饮食、排便、排尿、控制体重<br>
+（5）医疗服务<br>
+（6）护理与康复服务<br>
+（7）心理健康服务<br>
+（8）临终关怀服务</p>
+</li>
+<li>
+<p>全科医学九大原则。<br>
+①以人为中心的照顾<br>
+②以家庭为单位的照顾<br>
+③以社区为基础的照顾<br>
+④以预防为导向的照顾<br>
+⑤连续性照顾<br>
+⑥综合性的照顾<br>
+⑦可及性的照顾<br>
+⑧协调性的照顾<br>
+⑨以团队合作为基础</p>
+</li>
+</ol>
+<h3 id="三-论述题">三、论述题</h3>
+<ol>
+<li>
+<p>糖尿病的三级预防各级预防的目标.<br>
+（1）糖尿病的一级预防管理：糖尿病的一级预防旨在纠正危险因素，预防糖尿病发生，降低发病率。主要包括糖尿病防治知识的宣传教育、高危人群的筛查、生活方式的干预等。全科医生面对服务对象展开的问诊应以发现（筛查）糖尿病个人危险因素或潜在的健康问题为目的。把糖尿病的危险因素筛查纳入全科医师常规业务中，无论是在初诊、复诊、随访、或周期性健康检查时均可进行。<br>
+（2）糖尿病的二级预防管理：二级预防的目的是早诊断、早治疗、早干预，在已诊断的糖尿病病人中预防糖尿病并发症的发生。全科医生此期通过首诊、随诊、转诊等医疗服务，进行综合管理，达到综合管理控制目标。降低糖尿病并发症的发生风险。<br>
+（3）糖尿病的三级预防管理：糖尿病三级预防的目的是减少致残率和死亡率，改善糖尿病病人的生活质量。是对糖尿病病人进行综合治疗。其中血糖控制、综合达标是关键。严格控制血糖可以降低病人病死率和致残率。积极治疗慢性并发症包括冠心病、缺血性或出血性脑血管病、糖尿病肾病等可以保护糖尿病病人的劳动力，提高生活质量，延长寿命。</p>
+</li>
+<li>
+<p>目前中国老龄化趋势严重 (一大段材料)，请结合社区老年保健的相关知识，谈谈应对老龄化社会的思路和措施。<br>
+（1）开展社区老年综合功能评估<br>
+（2）健康教育：老年人的适应能力、抗病能力和代谢能力都有明显的降低，有必要接受有关专业人员的指导。通过健康教育，使老年人自己能能制定合理的生活方式，如保持适量的活动。生活要有规律，保持充分的睡眠，平衡膳食，注意营养素的搭配，适量饮茶，保持心情舒畅平静，不宜过于激动等。<br>
+（3）健康检查：老年人要定期做身体检查，每年至少一次，全科医生应根据周期性健康检查的要求，对老年人展开体检，发现问题，并及时采取保健措施，必要时向上级医院转送。<br>
+（4）日常活动管理：饮食、排便、排尿、控制体重<br>
+（5）医疗服务<br>
+（6）护理与康复服务<br>
+（7）心理健康服务<br>
+（8）临终关怀服务</p>
+</li>
+</ol>
 
                 </div>
             </article>
@@ -527,14 +372,14 @@ Ptable(data$性别,data$吸烟与否)
         
             <div class="next-post">
                 <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://maomaohead.github.io/post/write-an-essay-on-health-risk-factors/" class="post-title gt-a-link">
-                    Write an essay on health risk factors.
+                <a href="https://maomaohead.github.io/post/lesslessquan-ke-yi-xue-greatergreater-zhi-shi-dian-zheng-li/" class="post-title gt-a-link">
+                    《全科医学》知识点整理
                 </a>
             </div>
         
 
         
-            <span id="/post/r/" class="leancloud_visitors" data-flag-title="R★">
+            <span id="/post/lesslessquan-ke-yi-xue-greatergreater-wang-nian-zheng-li/" class="leancloud_visitors" data-flag-title="《全科医学》往年整理">
                 <em class="post-meta-item-text">阅读量 </em>
                 <i class="leancloud-visitors-count">0</i>
             </span>
